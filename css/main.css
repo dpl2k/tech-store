@@ -1,5 +1,8 @@
 @charset "utf-8";
-
+html{
+   scroll-behavior: smooth;
+   /* overflow: scroll; */
+}
 @font-face {
    font-family: rubik;
    src: url("../fonts/Rubik-VariableFont_wght.ttf");
@@ -16,6 +19,7 @@
    --text-color: #2d2d2d;
    --white-color:#fff;
    --tim-nhat:#232F3E;
+   --xam:#666666;
 }
 
 /* Common */
@@ -159,6 +163,90 @@ a{
    display: none;
 }
 
+/* Banner */
+
+#banner .carousel-caption h6{
+   color: #BF4D08;
+   font-size: 14px;
+   font-weight: 600;
+}
+
+#banner .carousel-caption h4 {
+   font-weight: 700;
+   color: var(--text-color);
+}
+
+#banner .carousel-caption p {
+   color: var(--xam);
+   font-weight: 500;
+}
+
+#banner .carousel-caption {
+   text-align: left;
+   top: 5%;
+   left: 5%;
+}
+
+#banner .btn-buy-now{
+   height: 40px;
+   width: 90px;
+   border-radius: 20px; 
+   background-color: var(--main-color);
+   color: var(--white-color);
+}
+
+#banner .btn-buy-now:hover {
+   background-color: var(--secondary-color);
+   color: var(--main-color);
+}
+
+#banner .carousel-indicators [data-bs-target] {
+   background-color: #ffffff;
+   opacity: 1;
+   width: 10px;
+   height: 10px;
+   border-radius: 5px;
+   border: none;
+}
+
+#banner .carousel-indicators .active {
+   background-color: #882b2b;
+}
+
+/* Small banner */
+.x-banner{
+   position: relative;
+   cursor: pointer;
+}
+
+.x-banner-caption{
+   position: absolute;
+   top: 20%;
+   left: 10%;
+}
+
+.x-banner:hover {
+   transform: scale(1.1);
+   transition: all 0.1s linear;
+}
+
+.x-banner-caption h6{
+   color: #BF4D08;
+   font-size: 8px;
+   font-weight: 600;
+}
+
+.x-banner-caption h4 {
+   font-weight: 700;
+   color: var(--text-color);
+   font-size: 16px;
+}
+
+.x-banner-caption p {
+   color: var(--xam);
+   font-size: 10px;
+   font-weight: 500;
+}
 /* -------------------------------- */
 
 /* Responsive device */
@@ -195,16 +283,69 @@ a{
    .category-mobile-tablet {
       display: block;
    }
+
+   .x-banner-caption{
+      top: 32%;
+   }
+
+   .x-banner-caption h6 {
+      font-size: 10px;
+   }
+
+   .x-banner-caption h4 {
+      font-size: 18px;
+   }
+
+   .x-banner-caption p {
+      font-size: 12px;
+   }
 }
 
-@media screen and (max-width:767px){   
+@media screen and (max-width:760px){   
    .search-bar-icon i {
       margin-left: 5px;
    }
    .input-group{
       top:0%
    }
-  
+   #banner .carousel-caption h6 {
+      font-size: 12px;  
+   }
+   #banner .carousel-caption p {
+      font-size: 12px;
+   }
+
+   .x-banner-caption{
+      top: 35%;
+      left: 7%;
+   }
+   .x-banner-caption h6 {
+      font-size: 8px;
+   }
+   .x-banner-caption h4 {
+      font-size: 16px;
+   }
+   .x-banner-caption p {
+      display: none;
+   }
+}
+
+@media screen and (max-width:760px) {
+   #banner .carousel-caption h6 {
+      font-size: 10px;
+   }
+
+   #banner .carousel-caption p {
+      font-size: 10px;
+   }
+
+   .x-banner-caption h6 {
+      font-size: 2px;
+   }
+
+   .x-banner-caption h4 {
+      font-size: 12px;
+   }
 }
 
 
