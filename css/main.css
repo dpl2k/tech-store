@@ -162,6 +162,12 @@ a{
 }
 .search-bar-icon i{
    margin-left: 10px;
+   cursor: pointer;
+}
+
+.search-bar-icon i:hover {
+   transform: scale(1.2);
+   transition: all 0.2s linear;
 }
 .search-option{
    display: none;
@@ -192,6 +198,7 @@ a{
    text-align: left;
    top: 5%;
    left: 5%;
+   cursor: pointer;
 }
 
 #banner .btn-buy-now{
@@ -205,6 +212,7 @@ a{
 #banner .btn-buy-now:hover {
    background-color: var(--secondary-color);
    color: var(--main-color);
+   transition: all 0.2s linear;
 }
 
 #banner .carousel-indicators [data-bs-target] {
@@ -256,13 +264,10 @@ a{
 }
 /* -------------------------------- */
 /* Offer service */
-/* Service section */
-.service-item img {
-   width: 100%;
-}
-
-.services {
-   margin-top: 70px;
+.service-item:hover{
+   cursor: pointer;
+   transform: scale(1.1);
+   transition: all 0.1s linear;
 }
 
 .service-content h3 {

@@ -659,7 +659,7 @@
          <div class="container">
            <div class="row">
                <div class="owl-carousel owl-theme">
-                  <div class="item d-flex justify-content-evenly">
+                  <div class="item d-flex justify-content-evenly service-item">
                      <div class="col-lg-4 col-md-4 col-sm-4 col-4">
                         <img src="./image/Free-Shipping_small 1.png" alt="None" class="w-75"/>
                      </div>
@@ -668,7 +668,7 @@
                         <p>From all orders over $100</p>
                      </div>
                   </div>
-                  <div class="item d-flex justify-content-evenly">
+                  <div class="item d-flex justify-content-evenly service-item">
                      <div class="col-lg-4 col-md-4 col-sm-4 col-4">
                         <img src="./image/Easy-Return_small 1.png" alt="None" class="w-75"/>
                      </div>
@@ -677,7 +677,7 @@
                         <p>Save up to 25% off</p>
                      </div>
                   </div>
-                  <div class="item d-flex justify-content-evenly">
+                  <div class="item d-flex justify-content-evenly service-item">
                      <div class="col-lg-4 col-md-4 col-sm-4 col-4">
                         <img src="./image/Customer-Support_small 1.png" alt="None" class="w-75"/>
                      </div>
@@ -686,7 +686,7 @@
                         <p>Shop with an expert</p>
                      </div>
                   </div>
-                  <div class="item d-flex justify-content-evenly">
+                  <div class="item d-flex justify-content-evenly service-item">
                      <div class="col-lg-4 col-md-4 col-sm-4 col-4">
                         <img src="./image/Free-Shipping_small 1.png" alt="None" class="w-75"/>
                      </div>
@@ -695,7 +695,7 @@
                         <p>Get Factory direct price</p>
                      </div>
                   </div>
-                  <div class="item d-flex justify-content-evenly">
+                  <div class="item d-flex justify-content-evenly service-item">
                      <div class="col-lg-4 col-md-4 col-sm-4 col-4">
                         <img src="./image/Easy-Return_small 1.png" alt="None" class="w-75"/>
                      </div>
@@ -717,6 +717,16 @@
     <script src="./js/script.js"></script>
     <script src="./js/owl.carousel.min.js"></script>
     <script>
+      // Add slideDown animation to Bootstrap dropdown when expanding.
+      $('.dropdown').on('show.bs.dropdown', function() {
+        $(this).find('.dropdown-menu').slideDown();
+      });
+
+      // Add slideUp animation to Bootstrap dropdown when collapsing.
+      $('.dropdown').on('hide.bs.dropdown', function() {
+        $(this).find('.dropdown-menu').slideUp();
+      });
+
       $(document).ready(function () {
          $(".owl-carousel").owlCarousel({
             loop: true,
