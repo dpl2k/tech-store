@@ -200,6 +200,10 @@ a{
    left: 5%;
    cursor: pointer;
 }
+#banner:hover {
+   transform: scale(1.1);
+   transition: all 0.1s linear;
+}
 
 #banner .btn-buy-now{
    height: 40px;
