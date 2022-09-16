@@ -142,10 +142,12 @@ a{
 
 .btn-search{
    background-color: var(--secondary-color);
+   border: 1px solid #fff;
 }
 
 .btn-search:hover{
    color: var(--white-color);
+   border: 1px solid #fff;
 }
 
 .search-bar-icon{
