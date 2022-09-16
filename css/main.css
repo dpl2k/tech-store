@@ -62,9 +62,14 @@ a{
 .text-top-right{
    font-size: 13px;
    color: var(--white-color);
+   border-right: 1px solid #ccc;
 }
 
-.dropdown-lang{
+.dropdown-item{
+   cursor: pointer;
+}
+
+/* .dropdown-lang{
    position: relative;
    cursor: pointer;
 }
@@ -130,7 +135,7 @@ a{
 .dropdown-currency:hover .dropdown-currency-menu{
    display: block;
    cursor: pointer;
-}
+} */
 /* -------------------------------------- */
 /* Search bar */
 .search-bar{
@@ -250,7 +255,30 @@ a{
    font-weight: 500;
 }
 /* -------------------------------- */
+/* Offer service */
+/* Service section */
+.service-item img {
+   width: 100%;
+}
 
+.services {
+   margin-top: 70px;
+}
+
+.service-content h3 {
+   font-family: rubik;
+   font-size: 16px;
+   color: var(--text-color);
+   font-weight: 600;
+   text-transform: capitalize;
+   margin: 20px 0 5px 0;
+}
+
+.service-content p {
+   font-size: 14px;
+   color: #757575;
+}
+/* ---------------------------------- */
 /* Responsive device */
 @media screen and (max-width:1400px){
 
@@ -260,12 +288,14 @@ a{
 }
 
 @media screen and (max-width:992px){
-   .text-top-left, .divider, .dropdown-lang, .dropdown-currency{
+   .text-top-left, .divider, .dropdown{
       display: none;
    }
    .text-top-right{  
-     margin-left: auto;
-     margin-right: auto;
+     /* margin-left: auto;
+     margin-right: auto; */
+     text-align: center;
+     border: none;
    }
    .search-section {
       display: none;
