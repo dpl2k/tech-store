@@ -423,7 +423,7 @@ a{
    top: 55%;
    left: 8%;
    font-weight: 600;
-   font-size: 14.5px;
+   font-size: 15px;
    color: var(--main-color);
 }
 
@@ -455,11 +455,10 @@ a{
    margin-left: 5px;
 }
 
-
 .icon-hover{
    position: absolute;
-   right: 4%;
-   top: 10%;
+   right: 3%;
+   top: 9%;
    opacity: 0;
    transition: all 0.2s linear;
 }
@@ -467,6 +466,16 @@ a{
 .icon-hover i{
    margin-top: 10px;
    color: var(--main-color);
+   font-size: medium;
+   width: 20px;
+   height: 20px;
+}
+
+.icon-hover i:hover {
+   background-color: var(--secondary-color);
+   transition: all 0.2s linear;
+   border-radius: 50%;
+   text-align: center;
 }
 
 .collection:hover .icon-hover{
@@ -477,12 +486,68 @@ a{
 .favourite:hover{
    background-color: var(--secondary-color);
    transition: all 0.2s linear;
-   border-radius: 2px;
    border-radius: 50%;
+   text-align: center;
+}
+/* --------------------------------- */
+/* second banner */
+.img-sec-banner{
+   position: relative;
+   cursor: pointer;
+   transition: all 0.3s linear;
 }
 
+.img-sec-banner:hover {
+   transform: scale(0.9);
+   transition: all 0.3s linear;
+}
 
+.sec-banner-caption-1 {
+   position: absolute;
+   top: 8%;
+   left: 5%;
+   color: var(--white-color);
+}
 
+.sec-banner-caption-1 h6{
+   font-size: 12px;
+   font-weight: bold;
+   margin-bottom: 5px;
+}
+.sec-banner-caption-1 h3{
+   color: var(--white-color);
+   font-size: 16px;
+   font-weight: 600;
+   margin-bottom: 10px;
+}
+.sec-banner-caption-1 p{
+   font-weight: normal;
+}
+
+.sec-banner-caption {
+   position: absolute;
+   top: 8%;
+   left: 5%;
+   color: var(--text-color);
+}
+
+.sec-banner-caption h6 {
+   font-size: 12px;
+   font-weight: 600;
+   color: var(--xam);
+   margin-bottom: 5px;
+}
+
+.sec-banner-caption h3 {
+   color: var(--text-color);
+   font-size: 16px;
+   font-weight: 700;
+   margin-bottom: 10px;
+}
+
+.sec-banner-caption p {
+   font-weight: 400;
+}
 /* ---------------------------------- */
 /* Responsive device */
 @media screen and (max-width:1400px){
