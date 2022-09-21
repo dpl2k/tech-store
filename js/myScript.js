@@ -70,6 +70,50 @@ $(document).ready(function () {
          },
       },
    });
+
+   $(".owl-seven").owlCarousel({
+      autoplay: true,
+      autoPlaySpeed: 5000,
+      autoPlayTimeout: 5000,
+      autoplayHoverPause: true,
+      rewind: true,
+      loop: true,
+      margin: 10,
+      dots: false,
+      nav: false,
+      responsiveClass: true,
+      responsive: {
+         0: {
+            items: 2,
+         },
+         600: {
+            items: 3,
+         },
+         1000: {
+            items: 5,
+         },
+      },
+   });
+
+   $(".owl-eight").owlCarousel({
+      loop: false,
+      margin: 10,
+      dots: false,
+      nav: true,
+      responsiveClass: true,
+      responsive: {
+         0: {
+            items: 1,
+         },
+         600: {
+            items: 2,
+         },
+         1000: {
+            items: 3,
+         },
+      },
+   });
+
 });
 
 // $(document).ready(function () {
