@@ -114,6 +114,25 @@ $(document).ready(function () {
       },
    });
 
+   $(".owl-nine").owlCarousel({
+      loop: false,
+      margin: 10,
+      dots: false,
+      nav: true,
+      responsiveClass: true,
+      responsive: {
+         0: {
+            items: 2,
+         },
+         600: {
+            items: 2,
+         },
+         1000: {
+            items: 2,
+         },
+      },
+   });
+
 });
 
 // $(document).ready(function () {

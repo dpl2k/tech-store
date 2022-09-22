@@ -322,7 +322,7 @@ a{
 .owl-prev {
    position: absolute;
    top: -35px;
-   font-size: 16px;
+   font-size: xx-large;
    right: 40px;
    width: 20px;
    height: 20px;
@@ -344,7 +344,7 @@ a{
 }
 
 .collection{
-   height: 330px;
+   height: 350px;
    position: relative;
    cursor: pointer;
 }
@@ -550,6 +550,35 @@ a{
    font-weight: 400;
 }
 /* ---------------------------------- */
+/* Our popular products */
+.pop-pr{
+   background-color: var(--white-color);
+}
+.nav-link p{
+   font-weight: 600;
+   font-size: 14px;
+   color: var(--xam);
+}
+.nav-link.active{
+   border: none;
+}
+
+.nav-link.active p{
+   color: var(--main-color);
+}
+
+.nav-link:hover{
+   background-color: #dddddd;
+}
+
+.img-popular{
+   width: 100%;
+}
+
+#v-tabs-tabContent{
+   
+}
+/* ---------------------------------- */
 /* Brand banner */
 .brand-banner{
    cursor: pointer;
@@ -669,6 +698,15 @@ a{
    .categories-content p{
       font-size: 12px;
    }
+
+   .pop-pr {
+      background-color: transparent;
+   }
+
+   .nav-tabs .nav-link.active {
+      background-color: transparent;
+      text-decoration: underline;
+   }
 }
 
 @media screen and (max-width:760px){   
@@ -712,6 +750,14 @@ a{
 
    .categories-content p {
       font-size: 14px;
+   }
+
+   .nav-link p {
+      font-size: 10px;
+   }
+
+   .img-popular {
+      width: 100%;
    }
 }
 
