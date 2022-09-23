@@ -115,10 +115,15 @@ $(document).ready(function () {
    });
 
    $(".owl-nine").owlCarousel({
+      autoplay: true,
+      autoPlaySpeed: 3000,
+      autoPlayTimeout: 3000,
+      autoplayHoverPause: true,
+      rewind: true,
       loop: false,
       margin: 10,
       dots: false,
-      nav: true,
+      nav: false,
       responsiveClass: true,
       responsive: {
          0: {
