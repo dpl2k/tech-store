@@ -28,9 +28,9 @@ function makeTimer() {
    if (minutes < "10") { minutes = "0" + minutes; }
    if (seconds < "10") { seconds = "0" + seconds; }
 
-   $(".days").html(days+"Days ");
-   $(".hours").html(hours+":");
-   $(".minutes").html(minutes+":");
+   $(".days").html(days);
+   $(".hours").html(hours);
+   $(".minutes").html(minutes);
    $(".seconds").html(seconds);
 
 }
@@ -167,10 +167,6 @@ $(document).ready(function () {
    });
 
    $(".owl-ten").owlCarousel({
-      autoplay: true,
-      autoPlaySpeed: 3000,
-      autoPlayTimeout: 3000,
-      autoplayHoverPause: true,
       rewind: true,
       loop: false,
       margin: 10,
@@ -190,7 +186,7 @@ $(document).ready(function () {
       },
    });
 
-   $("#sync1").owlCarousel({
+   $(".owl-12").owlCarousel({
       loop: true,
       margin: 10,
       dots: false,
@@ -198,40 +194,21 @@ $(document).ready(function () {
       items:1
    });
 
-   $("#sync2").owlCarousel({
+   $(".owl-13").owlCarousel({
       loop: true,
-      margin: 10,
+      margin: 1,
       dots: false,
       nav: true,
       addClassActive: true,
-      items: 2,
-      afterMove: function () {
-         //reset transform for all item
-         $(".owl-item").css({
-            transform: "none"
-         })
-         //add transform for 2nd active slide
-         $(".owl-item.active").eq(1).css({
-            border: "1px solid #000",
-
-         })
-
-      },
-      //set init transform
-      afterInit: function () {
-         $(".owl-item.active").eq(1).css({
-            border: "1px solid #000",
-         })
-      }
+      items: 2
    });
-   // $("#sync2").trigger("to.owl.carousel", [2, 1])
 
    // Sync nav
-   $("#sync2").on('click', '.owl-next', function () {
-      $("#sync1").trigger('next.owl.carousel')
+   $(".owl-13").on('click', '.owl-next', function () {
+      $(".owl-12").trigger('next.owl.carousel') ;
    });
-   $("#sync2").on('click', '.owl-prev', function () {
-      $("#sync1").trigger('prev.owl.carousel')
+   $(".owl-13").on('click', '.owl-prev', function () {
+      $(".owl-12").trigger('prev.owl.carousel');
    });
 
 });

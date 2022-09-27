@@ -497,8 +497,166 @@ a{
 }
 /* --------------------------------- */
 /* Special Products */
-#sync2 .item.active{
-   border: 1px solid #333;
+#sync1 .item{
+   width: 70%;
+   margin-left: 20px;
+}
+#sync2 .item{
+   margin-left: 10px;
+   margin-top: 0px;
+   width: 60px;
+   border: 1px solid #ccc;
+   padding: 0px 5px;
+}
+#sync2 .owl-prev{
+   top:0px;
+   left:-15px;
+   opacity: 0;
+   font-size: 30px !important;
+}
+#sync2 .owl-next {
+   top: 0px;
+   right: 15px;
+   opacity: 0;
+   font-size: 30px !important;
+}
+
+.sp-card:hover #sync2 .owl-prev,
+.sp-card:hover #sync2 .owl-next{
+   opacity: 1;
+}
+
+.sp-favourite{
+   /* position: absolute; */
+   transform: translate(180px, -155px);
+   font-size: medium;
+   color: var(--main-color);
+   font-weight: 600;
+   width: 20px;
+   height: 20px;
+   cursor: pointer;
+}
+
+.sp-favourite i:hover {
+   background-color: var(--secondary-color);
+   transition: all 0.2s linear;
+   text-align: center;
+   cursor: pointer;
+}
+
+.sp-icon-hover{
+   /* position: absolute; */
+   transform: translate(180px, -152px);
+   opacity: 0;
+   transition: all 0.2s linear;
+   cursor: pointer;
+}
+
+.sp-icon-hover i{
+   margin-top: 8px;
+   color: var(--main-color);
+   font-size: medium;
+   width: 20px;
+   height: 20px;
+}
+
+.sp-card:hover .sp-icon-hover{
+   opacity: 1;
+   transition: all 0.2s linear;
+}
+
+.sp-brand{
+   color: #BF4D08;
+   font-weight: 600;
+   font-size: 14px;
+   margin-bottom: 10px;
+}
+.sp-device-name{
+   color: var(--text-color);
+   font-weight: 600;
+   font-size: 15px;
+   margin-bottom: 10px;
+}
+.sp-stars{
+   color: #e0e022;
+   margin-bottom: 10px;
+}
+.sp-price{
+   color: var(--text-color);
+   font-weight: 500;
+   font-size: 16px;
+   margin-bottom: 10px;
+}
+.timer{
+   margin-bottom: 10px;
+}
+
+.timer .days{
+   color: var(--text-color);
+   font-weight: 800;
+   margin-right: 10px;
+   font-size: 14px;
+   transform: translateY(-2px);
+}
+
+.timer .hours{
+   background-color: #BF4D08;
+   margin-left: 10px;
+   margin-right: 3px;
+   width: 24px;
+   height: 24px;
+   font-size: 15px;
+   text-align: center;
+   transform: translateY(-1px);
+   color: var(--white-color);
+}
+
+.timer .minutes{
+   background-color: #BF4D08;
+   margin-left: 3px;
+   margin-right: 3px;
+   width: 24px;
+   height: 24px;
+   font-size: 15px;
+   text-align: center;
+   transform: translateY(-1px);
+   color: var(--white-color);
+}
+
+.timer .seconds{
+   background-color: #BF4D08;
+   margin-left: 3px;
+   margin-right: 3px;
+   width: 24px;
+   height: 24px;
+   font-size: 15px;
+   text-align: center;
+   transform: translateY(-1px);
+   color: var(--white-color);
+}
+.sp-number{
+   color: var(--xam);
+   font-weight: 500;
+   font-size: 14px;
+}
+
+#num-bar{
+   width: 80%;
+   height: 20px;
+   accent-color: green;
+   margin-bottom: 10px;
+}
+
+.btn-sp{
+   background-color: var(--main-color);
+   color: var(--white-color);
+   width: 90px;
+   height: 40px;
+}
+
+.sp-card:hover .btn-sp{
+   background-color: var(--secondary-color);
+   color: var(--main-color);
 }
 /* ---------------------------------- */
 /* second banner */
@@ -794,6 +952,18 @@ a{
    font-size: 24px;
    color: var(--white-color);
    cursor: pointer;
+}
+/* ----------------------------------- */
+/* Blog page*/
+.page-blog-title{
+   font-size: 14px;
+   text-align: center;
+   color: var(--text-color);
+   padding: 20px;
+}
+
+.page-blog-title a{
+   color: var(--text-color);
 }
 /* ----------------------------------- */
 /* Responsive device */
