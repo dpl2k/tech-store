@@ -497,47 +497,71 @@ a{
 }
 /* --------------------------------- */
 /* Special Products */
-#sync1 .item{
+/* .owl-12 .item{
    width: 70%;
    margin-left: 20px;
 }
-#sync2 .item{
+.owl-13 .item{
    margin-left: 10px;
-   margin-top: 0px;
-   width: 60px;
+   margin-top: 80px;
+   width: 55%;
    border: 1px solid #ccc;
    padding: 0px 5px;
 }
-#sync2 .owl-prev{
-   top:0px;
+.owl-13 .owl-prev{
+   top:75px;
    left:-15px;
    opacity: 0;
    font-size: 30px !important;
 }
-#sync2 .owl-next {
-   top: 0px;
+.owl-13 .owl-next {
+   top: 75px;
    right: 15px;
    opacity: 0;
    font-size: 30px !important;
+} 
+.sp-card:hover .owl-13 .owl-prev,
+.sp-card:hover .owl-13 .owl-next{
+   opacity: 1;
+} */
+
+.special-products .carousel-inner{
+   left: 5%;
+}
+.special-products .carousel-indicators{
+   top: 100%;
+   left: -10%;
+   justify-content: space-between;
+}
+.special-products .carousel-indicators button{
+   width: 70px;
+}
+.special-products .carousel-indicators button img{
+   border: 1px solid #ccc;
+}
+.special-products .carousel-indicators .active img{
+   margin-right: 20px;
+   border: 1px solid #000;
 }
 
-.sp-card:hover #sync2 .owl-prev,
-.sp-card:hover #sync2 .owl-next{
-   opacity: 1;
+.sp-card{
+   position: relative;
 }
 
 .sp-favourite{
-   /* position: absolute; */
-   transform: translate(180px, -155px);
+   position: absolute;
+   top:10px;
+   right: 55%;
    font-size: medium;
    color: var(--main-color);
    font-weight: 600;
    width: 20px;
    height: 20px;
    cursor: pointer;
+   transition: all 0.2s linear;
 }
 
-.sp-favourite i:hover {
+.sp-favourite:hover {
    background-color: var(--secondary-color);
    transition: all 0.2s linear;
    text-align: center;
@@ -545,8 +569,9 @@ a{
 }
 
 .sp-icon-hover{
-   /* position: absolute; */
-   transform: translate(180px, -152px);
+   position: absolute;
+   top:35px;
+   right: 55%;
    opacity: 0;
    transition: all 0.2s linear;
    cursor: pointer;
@@ -558,6 +583,16 @@ a{
    font-size: medium;
    width: 20px;
    height: 20px;
+   border-radius: 10px;
+   transition: all 0.2s linear;
+}
+
+.sp-icon-hover i:hover {
+   background-color: var(--secondary-color);
+   transition: all 0.2s linear;
+   text-align: center;
+   cursor: pointer;
+   /* border-radius: 50%; */
 }
 
 .sp-card:hover .sp-icon-hover{
@@ -903,40 +938,33 @@ a{
 .footer-main .ourapp-mobile{
    display: none;
 }
-.footer-main button{
-   box-shadow: none !important;
-   outline: none !important;
-}
 
-.footer-main .accordion{
-   outline: none !important;
-   border: none !important;
-}
 .footer-main .accordion-button{
    background-color: var(--main-color);
    color: var(--white-color);
    border: none;
-}
+} 
 
 .footer-main .accordion-button:after {
    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
-   outline: 0 !important;  
-}
-
-.footer-main .accordion-button:focus {
-   box-shadow: none;
-   border:none;
-   border-width: 0;
-   outline: none !important;
 }
 
 .footer-main .accordion-body{
    background-color: var(--main-color);
-   border: none;
-   outline: none;
 }
 
+.footer-main .accordion-item {
+   background-color: transparent;
+}
 
+.footer-main .accordion {
+   --bs-accordion-border-width: 0px !important;
+}
+
+.footer-main .accordion-button:focus {
+   box-shadow: none !important;
+   border: none !important;
+}
 /* ----------------------------------- */
 /* Footer bottom */
 .footer-bottom{
@@ -1054,7 +1082,7 @@ a{
 
    #v-tabs-tabContent button.owl-prev,
    #v-tabs-tabContent button.owl-next{
-      top: -25%;
+      top: -32%;
    }
 
    .footer-top {
@@ -1165,7 +1193,7 @@ a{
 
    #v-tabs-tabContent button.owl-prev,
    #v-tabs-tabContent button.owl-next {
-      transform: translateY(2045%)
+      transform: translateY(2115%)
    }
 
    .owl-nine {
