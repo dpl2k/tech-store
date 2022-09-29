@@ -525,6 +525,9 @@ a{
    opacity: 1;
 } */
 
+.sp-main-img{
+   width: 75% !important;
+}
 .special-products .carousel-inner{
    left: 5%;
 }
@@ -1000,6 +1003,12 @@ a{
       height: 455px;
    }
 
+   .special-products .carousel-indicators {
+      top: 90%;
+      left: -10%;
+      justify-content: space-around;
+   }
+
 }
 
 @media screen and (max-width:1200px){
@@ -1009,6 +1018,15 @@ a{
 }
 
 @media screen and (max-width:992px){
+   .sp-main-img {
+      width: 55% !important;
+      transform: translateX(40px);
+   }
+   .special-products .carousel-indicators {
+      top: 90%;
+      left: -10%;
+      justify-content: space-around;
+   }
    .text-top-left, .divider, .dropdown{
       display: none;
    }
@@ -1137,7 +1155,17 @@ a{
 
 }
 
-@media screen and (max-width:760px){   
+@media screen and (max-width:760px){  
+   .sp-main-img {
+      width: 100% !important;
+      transform: translateX(-25px);
+   }
+
+   .special-products .carousel-indicators {
+      top: 110%;
+      left: -20%;
+      justify-content: space-between;
+   }
    .search-bar-icon i {
       margin-left: 5px;
    }
@@ -1239,7 +1267,18 @@ a{
       font-size: 40px;
    }
 }
+@media screen and (width:540px) {
+   .sp-main-img {
+      width: 70% !important;
+      transform: translateX(0px);
+   }
 
+   .special-products .carousel-indicators {
+      top: 110%;
+      left: -20%;
+      justify-content: space-around;
+   }
+}
 @media screen and (max-width:540px) {
    #banner .carousel-caption h6 {
       font-size: 10px;
@@ -1259,5 +1298,41 @@ a{
 
    .device-name{
       font-size: 12px;
+   }
+}
+
+@media screen and (width:320px) {
+   .collection{
+      height: 240px;
+   }
+
+   .sp-brand{
+      font-size: 12px;
+   }
+
+   .sp-device-name{
+      font-size: 14px;
+   }
+
+   .timer .days{
+      font-size: 12px;
+      transform: translateY(0px);
+   }
+
+   .timer .hours{
+      font-size: 12px;
+      width: 18px;
+      height: 18px;
+      margin-left: 5px;
+   }
+
+   .timer .minutes, .timer .seconds{
+      font-size: 12px;
+      width: 18px;
+      height: 18px;
+   }
+
+   .special-products .carousel-indicators{
+      top: 140%;
    }
 }
