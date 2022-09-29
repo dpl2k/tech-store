@@ -330,7 +330,24 @@ a {
    color: var(--white-color);
    cursor: pointer;
 }
-
+/* ----------------------------------- */
+/* Back to top button */
+#btn-back-to-top {
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+   width: 40px;
+   height: 40px;
+   font-size: 20px;
+   background-color: var(--secondary-color);
+   border: none;
+   display: none;
+   z-index: 1;
+}
+#btn-back-to-top:hover {
+   background-color: var(--xam);
+   color: var(--white-color);
+}
 /* ----------------------------------- */
 /* Blog page*/
 .page-blog-title {
