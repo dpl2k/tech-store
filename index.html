@@ -1,499 +1,2522 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="./css/bootstrap.min.css">
-   <link rel="stylesheet" href="./css/all.min.css">
-   <link rel="stylesheet" href="./css/main.css">
-   <link rel="stylesheet" href="./css/style.css">
-   <title>Digitic</title>
-</head>
-<body>
-   <!-- Top bar -->
-   <div class="bg-top">
-      <div class="container">
-         <div class="row">
-            <div class="col-xl-6 col-lg-6 text-top-left">
-               Free Shipping Over $100 & Free Returns
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+    <link rel="shortcut icon" href="./image/favicon.webp" type="image/x-icon">
+    <title>Digitic</title>
+  </head>
+  <body style="overflow: scroll">
+    <header>
+      <!-- Top bar -->
+      <div class="bg-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-5 col-lg-5 text-top-left">
+              Free Shipping Over $100 & Free Returns
             </div>
-            <div class="col-xl-6 col-lg-6 d-flex justify-content-between">
-               <div class="text-top-right">
-                  Hotline:(888) 4344 6000-(888) 1338 8193
-               </div>
-               <div class="divider"></div>
-               <div class="dropdown-lang">
-                  <p>English <i class="fas fa-angle-down"></i></p>
-                  <ul class="dropdown-lang-menu">
-                     <li class="dropdown-lang-menu-item">English</li>
-                     <li class="dropdown-lang-menu-item">Russian</li>
-                     <li class="dropdown-lang-menu-item">French</li>
-                     <li class="dropdown-lang-menu-item">Japanese</li>
-                     <li class="dropdown-lang-menu-item">Chinese</li>
-                  </ul>
-               </div>
-               <div class="dropdown-currency">
-                  <p>USD <i class="fas fa-angle-down"></i></p>
-                  <ul class="dropdown-currency-menu">
-                     <li class="dropdown-currency-menu-item">USD</li>
-                     <li class="dropdown-currency-menu-item">Rup</li>
-                     <li class="dropdown-currency-menu-item">Euro</li>
-                     <li class="dropdown-currency-menu-item">Yen</li>
-                     <li class="dropdown-currency-menu-item">CNY</li>
-                  </ul>
-               </div>
+            <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
+              <div class="text-top-right">
+                Hotline:(888) 4344 6000-(888) 1338 8193
+              </div>
             </div>
-         </div>
+        
+            <div class="col-xl-1 col-lg-1 text-end">
+              <div class="dropdown">
+                <p
+                  class="dropdown-toggle text-white"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <span>English</span>
+                </p>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-item">English</li>
+                  <li class="dropdown-item">Russian</li>
+                  <li class="dropdown-item">French</li>
+                  <li class="dropdown-item">Japanese</li>
+                  <li class="dropdown-item">Chinese</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-1 col-lg-1 text-end">
+              <div class="dropdown">
+                <p
+                  class="dropdown-toggle text-white"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  USD
+                </p>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-item">USD</li>
+                  <li class="dropdown-item">Rup</li>
+                  <li class="dropdown-item">Euro</li>
+                  <li class="dropdown-item">Yen</li>
+                  <li class="dropdown-item">CNY</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-   </div>
-   <!-- Search and logo -->
-   <div class="search-bar">
-      <div class="container">
-         <div class="row">
+      <!-- Search and logo -->
+      <div class="search-bar">
+        <div class="container">
+          <div class="row">
             <div class="col-xl-3 col-lg-3 col-6">
-               <a href="./index.html">
-                  <img src="./image/logo.png" alt="None" class="logo">
-               </a>
+              <a href="./index.html">
+                <img src="./image/logo.png" alt="None" class="logo" />
+              </a>
             </div>
             <div class="col-xl-6 col-lg-6 search-section">
-               <div class="input-group">
-                  <input type="search" id="form1" class="form-control rounded-start" placeholder="Search product here...">
-                  <button type="button" class="btn btn-search rounded-end">
-                     <i class="fas fa-search"></i>
-                  </button>
-               </div>
+              <div class="input-group">
+                <input
+                  type="search"
+                  id="form1"
+                  class="form-control rounded-start"
+                  placeholder="Search product here..."
+                />
+                <button type="button" class="btn btn-search rounded-end">
+                  <i class="fas fa-search"></i>
+                </button>
+              </div>
             </div>
             <div class="col-xl-3 col-lg-3 col-6">
-               <div class="search-bar-icon">
-                  <i class="far fa-heart"></i>
-                  <i class="far fa-user"></i>
-                  <i class="fas fa-shopping-cart">
-                  </i>
-               </div>
+              <div class="search-bar-icon">
+                <i class="far fa-heart"></i>
+                <i class="far fa-user"></i>
+                <i class="fas fa-shopping-cart"> </i>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </div>
-   </div>
-   <!-- Navbar -->
-   <div class="header-bottom">
-      <div class="container">
-         <div class="row">
-            <div class="col-md-3 col-2">
-               <div id="mega-menu">
-                  <div class="btn-mega">
-                     <img src="./image/category.png" alt="None" style="margin-right: 5px;">
-                     CATEGORIES <i class="fas fa-angle-down mx-2"></i>
-                  </div>
-                  <ul class="menu">
-                     <li>
-                        <a href="#" title="">
-                           <span class="menu-img">
+      <!-- Navbar -->
+      <div class="header-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-2 text-start">
+              <div id="mega-menu">
+                <div class="btn-mega">
+                  <img
+                    src="./image/category.png"
+                    alt="None"
+                    style="margin-right: 5px"
+                  />
+                  CATEGORIES <i class="fas fa-angle-down mx-2"></i>
+                </div>
+                <ul class="menu">
+                  <li>
+                    <a href="./index.html" title="">
+                      <span class="menu-img">
+                        <img src="#" alt="" />
+                      </span>
+                      <span class="menu-title"> Home </span>
+                    </a>
+                  </li>
+                  <li class="category-mobile-tablet">
+                    <a href="./our_store.html" title="">
+                      <span class="menu-img">
+                        <img src="#" alt="" />
+                      </span>
+                      <span class="menu-title"> Our store </span>
+                    </a>
+                  </li>
+                  <li class="category-mobile-tablet">
+                    <a href="./blog.html" title="">
+                      <span class="menu-img">
+                        <img src="#" alt="" />
+                      </span>
+                      <span class="menu-title"> Blog </span>
+                    </a>
+                  </li>
+                  <li class="category-mobile-tablet">
+                    <a href="./contact.html" title="">
+                      <span class="menu-img">
+                        <img src="#" alt="" />
+                      </span>
+                      <span class="menu-title"> Contact </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" title="" class="dropdown">
+                      <span class="menu-img">
+                        <img src="#" alt="" />
+                      </span>
+                      <span class="menu-title"> Cameras & Videos </span>
+                    </a>
+                    <div class="drop-menu">
+                      <div class="one-third">
+                        <div class="cat-title">Laptop And Computer</div>
+                        <ul>
+                          <li>
+                            <a href="#" title=""
+                              >Networking & Internet Devices</a
+                            >
+                          </li>
+                          <li>
+                            <a href="#" title=""
+                              >Laptops, Desktops & Monitors</a
+                            >
+                          </li>
+                          <li>
+                            <a href="#" title="">Hard Drives & Memory Cards</a>
+                          </li>
+                          <li>
+                            <a href="#" title="">Printers & Ink</a>
+                          </li>
+                          <li>
+                            <a href="#" title="">
+                              Networking & Internet Devices
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" title="">Computer Accessories</a>
+                          </li>
+                          <li>
+                            <a href="#" title="">Software</a>
+                          </li>
+                        </ul>
+                        <div class="show">
+                          <a href="#" title="">Shop All</a>
+                        </div>
+                      </div>
+                      <div class="one-third">
+                        <div class="cat-title">Audio & Video</div>
+                        <ul>
+                          <li>
+                            <a href="#" title="">Headphones & Speakers</a>
+                          </li>
+                          <li>
+                            <a href="#" title="">Home Entertainment Systems</a>
+                          </li>
+                          <li>
+                            <a href="#" title="">MP3 & Media Players</a>
+                          </li>
+                        </ul>
+                        <div class="show">
+                          <a href="#" title="">Shop All</a>
+                        </div>
+                      </div>
+                      <div class="one-third">
+                        <ul class="banner">
+                          <li>
+                            <div class="banner-text">
+                              <div class="banner-title">Headphones</div>
+                              <div class="more-link">
+                                <a href="#" title=""
+                                  >BUY NOW <img src="#" alt=""
+                                /></a>
+                              </div>
+                            </div>
+                            <div class="banner-img">
                               <img src="#" alt="" />
-                           </span>
-                           <span class="menu-title"> Home </span>
-                        </a>
-                     </li>
-                     <li class="category-mobile-tablet">
-                        <a href="#" title="">
-                           <span class="menu-img">
+                            </div>
+                            <div class="clearfix"></div>
+                          </li>
+                          <li>
+                            <div class="banner-text">
+                              <div class="banner-title">TV & Audio</div>
+                              <div class="more-link">
+                                <a href="#" title=""
+                                  >BUY NOW <img src="#" alt=""
+                                /></a>
+                              </div>
+                            </div>
+                            <div class="banner-img">
                               <img src="#" alt="" />
-                           </span>
-                           <span class="menu-title"> Our store </span>
-                        </a>
-                     </li>
-                     <li class="category-mobile-tablet">
-                        <a href="#" title="">
-                           <span class="menu-img">
+                            </div>
+                            <div class="clearfix"></div>
+                          </li>
+                          <li>
+                            <div class="banner-text">
+                              <div class="banner-title">Computers</div>
+                              <div class="more-link">
+                                <a href="#" title=""
+                                  >BUY NOW <img src="#" alt=""
+                                /></a>
+                              </div>
+                            </div>
+                            <div class="banner-img">
                               <img src="#" alt="" />
-                           </span>
-                           <span class="menu-title"> Blog </span>
-                        </a>
-                     </li>
-                     <li class="category-mobile-tablet">
-                        <a href="#" title="">
-                           <span class="menu-img">
+                            </div>
+                            <div class="clearfix"></div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="#" title="" class="dropdown">
+                      <span class="menu-img">
+                        <img src="#" alt="" />
+                      </span>
+                      <span class="menu-title">Computers & Laptops </span>
+                    </a>
+                    <div class="drop-menu">
+                      <div class="one-third">
+                        <div class="cat-title">Home Devices</div>
+                        <ul>
+                          <li>
+                            <a href="#" title="">Internet Devices</a>
+                          </li>
+                          <li>
+                            <a href="#" title="">Desktops & Monitors</a>
+                          </li>
+                          <li>
+                            <a href="#" title="">Hard Drives & Memory Cards</a>
+                          </li>
+                          <li>
+                            <a href="#" title="">Networking</a>
+                          </li>
+                          <li>
+                            <a href="#" title="">Software</a>
+                          </li>
+                        </ul>
+                        <div class="show">
+                          <a href="#" title="">Shop All</a>
+                        </div>
+                      </div>
+                      <div class="one-third">
+                        <div class="cat-title">Audio</div>
+                        <ul>
+                          <li>
+                            <a href="#" title="">Home Entertainment Systems</a>
+                          </li>
+                          <li>
+                            <a href="#" title="">MP3 & Media Players</a>
+                          </li>
+                          <li>
+                            <a href="#" title="">Software</a>
+                          </li>
+                        </ul>
+                        <div class="show">
+                          <a href="#" title="">Shop All</a>
+                        </div>
+                      </div>
+                      <div class="one-third">
+                        <ul class="banner">
+                          <li>
+                            <div class="banner-text">
+                              <div class="banner-title">Headphones</div>
+                              <div class="more-link">
+                                <a href="#" title=""
+                                  >BUY NOW <img src="#" alt=""
+                                /></a>
+                              </div>
+                            </div>
+                            <div class="banner-img">
                               <img src="#" alt="" />
-                           </span>
-                           <span class="menu-title"> Contact </span>
-                        </a>
-                     </li>
-                     <li>
-                        <a href="#" title="" class="dropdown">
-                           <span class="menu-img">
+                            </div>
+                            <div class="clearfix"></div>
+                          </li>
+                          <li>
+                            <div class="banner-text">
+                              <div class="banner-title">TV & Audio</div>
+                              <div class="more-link">
+                                <a href="#" title=""
+                                  >BUY NOW <img src="#" alt=""
+                                /></a>
+                              </div>
+                            </div>
+                            <div class="banner-img">
                               <img src="#" alt="" />
-                           </span>
-                           <span class="menu-title"> Cameras & Videos </span>
-                        </a>
-                        <div class="drop-menu">
-                           <div class="one-third">
-                              <div class="cat-title">Laptop And Computer</div>
-                              <ul>
-                                 <li>
-                                 <a href="#" title="">Networking & Internet Devices</a>
-                                 </li>
-                                 <li>
-                                 <a href="#" title="">Laptops, Desktops & Monitors</a>
-                                 </li>
-                                 <li>
-                                 <a href="#" title="">Hard Drives & Memory Cards</a>
-                                 </li>
-                                 <li>
-                                 <a href="#" title="">Printers & Ink</a>
-                                 </li>
-                                 <li>
-                                 <a href="#" title="">Networking & Internet Devices</a>
-                                 </li>
-                                 <li>
-                                 <a href="#" title="">Computer Accessories</a>
-                                 </li>
-                                 <li>
-                                 <a href="#" title="">Software</a>
-                                 </li>
-                              </ul>
-                              <div class="show">
-                                 <a href="#" title="">Shop All</a>
+                            </div>
+                            <div class="clearfix"></div>
+                          </li>
+                          <li>
+                            <div class="banner-text">
+                              <div class="banner-title">Computers</div>
+                              <div class="more-link">
+                                <a href="#" title=""
+                                  >BUY NOW <img src="#" alt=""
+                                /></a>
                               </div>
-                           </div>
-                           <div class="one-third">
-                              <div class="cat-title">Audio & Video</div>
-                              <ul>
-                                 <li>
-                                 <a href="#" title="">Headphones & Speakers</a>
-                                 </li>
-                                 <li>
-                                 <a href="#" title="">Home Entertainment Systems</a>
-                                 </li>
-                                 <li>
-                                 <a href="#" title="">MP3 & Media Players</a>
-                                 </li>
-                              </ul>
-                              <div class="show">
-                                 <a href="#" title="">Shop All</a>
-                              </div>
-                           </div>
-                           <div class="one-third">
-                              <ul class="banner">
-                                 <li>
-                                 <div class="banner-text">
-                                    <div class="banner-title">Headphones</div>
-                                    <div class="more-link">
-                                       <a href="#" title=""
-                                       >Shop Now <img src="#" alt=""
-                                       /></a>
-                                    </div>
-                                 </div>
-                                 <div class="banner-img">
-                                    <img src="#" alt="" />
-                                 </div>
-                                 <div class="clearfix"></div>
-                                 </li>
-                                 <li>
-                                 <div class="banner-text">
-                                    <div class="banner-title">TV & Audio</div>
-                                    <div class="more-link">
-                                       <a href="#" title=""
-                                       >Shop Now <img src="#" alt=""
-                                       /></a>
-                                    </div>
-                                 </div>
-                                 <div class="banner-img">
-                                    <img src="#" alt="" />
-                                 </div>
-                                 <div class="clearfix"></div>
-                                 </li>
-                                 <li>
-                                 <div class="banner-text">
-                                    <div class="banner-title">Computers</div>
-                                    <div class="more-link">
-                                       <a href="#" title=""
-                                       >Shop Now <img src="#" alt=""
-                                       /></a>
-                                    </div>
-                                 </div>
-                                 <div class="banner-img">
-                                    <img src="#" alt="" />
-                                 </div>
-                                 <div class="clearfix"></div>
-                                 </li>
-                              </ul>
-                           </div>
-                        </div>
-                     </li>
-                     <li>
-                        <a href="#" title="" class="dropdown">
-                        <span class="menu-img">
-                           <img src="#" alt="" />
-                        </span>
-                        <span class="menu-title">Computers & Laptops </span>
-                        </a>
-                        <div class="drop-menu">
-                        <div class="one-third">
-                           <div class="cat-title">Home Devices</div>
-                           <ul>
-                              <li>
-                              <a href="#" title="">Internet Devices</a>
-                              </li>
-                              <li>
-                              <a href="#" title="">Desktops & Monitors</a>
-                              </li>
-                              <li>
-                              <a href="#" title="">Hard Drives & Memory Cards</a>
-                              </li>
-                              <li>
-                              <a href="#" title="">Networking</a>
-                              </li>
-                              <li>
-                              <a href="#" title="">Software</a>
-                              </li>
-                           </ul>
-                           <div class="show">
-                              <a href="#" title="">Shop All</a>
-                           </div>
-                        </div>
-                        <div class="one-third">
-                           <div class="cat-title">Audio</div>
-                           <ul>
-                              <li>
-                              <a href="#" title="">Home Entertainment Systems</a>
-                              </li>
-                              <li>
-                              <a href="#" title="">MP3 & Media Players</a>
-                              </li>
-                              <li>
-                              <a href="#" title="">Software</a>
-                              </li>
-                           </ul>
-                           <div class="show">
-                              <a href="#" title="">Shop All</a>
-                           </div>
-                        </div>
-                        <div class="one-third">
-                           <ul class="banner">
-                              <li>
-                              <div class="banner-text">
-                                 <div class="banner-title">Headphones</div>
-                                 <div class="more-link">
-                                    <a href="#" title=""
-                                    >Shop Now <img src="#" alt=""
-                                    /></a>
-                                 </div>
-                              </div>
-                              <div class="banner-img">
-                                 <img src="#" alt="" />
-                              </div>
-                              <div class="clearfix"></div>
-                              </li>
-                              <li>
-                              <div class="banner-text">
-                                 <div class="banner-title">TV & Audio</div>
-                                 <div class="more-link">
-                                    <a href="#" title=""
-                                    >Shop Now <img src="#" alt=""
-                                    /></a>
-                                 </div>
-                              </div>
-                              <div class="banner-img">
-                                 <img src="#" alt="" />
-                              </div>
-                              <div class="clearfix"></div>
-                              </li>
-                              <li>
-                              <div class="banner-text">
-                                 <div class="banner-title">Computers</div>
-                                 <div class="more-link">
-                                    <a href="#" title=""
-                                    >Shop Now <img src="#" alt=""
-                                    /></a>
-                                 </div>
-                              </div>
-                              <div class="banner-img">
-                                 <img src="#" alt="" />
-                              </div>
-                              <div class="clearfix"></div>
-                              </li>
-                           </ul>
-                        </div>
-                        </div>
-                     </li>
-                     <li>
-                        <a href="#" title="" class="dropdown">
-                        <span class="menu-img">
-                           <img src="#" alt="" />
-                        </span>
-                        <span class="menu-title"> Home Appliances </span>
-                        </a>
-                        <div class="drop-menu">
-                        <div class="one-third">
-                           <div class="cat-title">Games & Toys</div>
-                           <ul>
-                              <li>
-                              <a href="#" title="">Internet Devices</a>
-                              </li>
-                              <li>
-                              <a href="#" title="">Desktops & Monitors</a>
-                              </li>
-                              <li>
-                              <a href="#" title="">Hard Drives & Memory Cards</a>
-                              </li>
-                              <li>
-                              <a href="#" title="">Networking</a>
-                              </li>
-                              <li>
-                              <a href="#" title="">Software</a>
-                              </li>
-                           </ul>
-                           <div class="show">
-                              <a href="#" title="">Shop All</a>
-                           </div>
-                        </div>
-                        <div class="one-third">
-                           <div class="cat-title">Audio</div>
-                           <ul>
-                              <li>
-                              <a href="#" title="">Home Entertainment Systems</a>
-                              </li>
-                              <li>
-                              <a href="#" title="">MP3 & Media Players</a>
-                              </li>
-                              <li>
-                              <a href="#" title="">Software</a>
-                              </li>
-                           </ul>
-                           <div class="show">
-                              <a href="#" title="">Shop All</a>
-                           </div>
-                        </div>
-                        <div class="one-third">
-                           <ul class="banner">
-                              <li>
-                              <div class="banner-text">
-                                 <div class="banner-title">Headphones</div>
-                                 <div class="more-link">
-                                    <a href="#" title=""
-                                    >Shop Now <img src="#" alt=""
-                                    /></a>
-                                 </div>
-                              </div>
-                              <div class="banner-img">
-                                 <img src="#" alt="" />
-                              </div>
-                              <div class="clearfix"></div>
-                              </li>
-                              <li>
-                              <div class="banner-text">
-                                 <div class="banner-title">TV & Audio</div>
-                                 <div class="more-link">
-                                    <a href="#" title=""
-                                    >Shop Now <img src="#" alt=""
-                                    /></a>
-                                 </div>
-                              </div>
-                              <div class="banner-img">
-                                 <img src="#" alt="" />
-                              </div>
-                              <div class="clearfix"></div>
-                              </li>
-                              <li>
-                              <div class="banner-text">
-                                 <div class="banner-title">Computers</div>
-                                 <div class="more-link">
-                                    <a href="#" title=""
-                                    >Shop Now <img src="#" alt=""
-                                    /></a>
-                                 </div>
-                              </div>
-                              <div class="banner-img">
-                                 <img src="#" alt="" />
-                              </div>
-                              <div class="clearfix"></div>
-                              </li>
-                           </ul>
-                        </div>
-                        </div>
-                     </li>
-                     <li>
-                        <a href="#" title="">
-                           <span class="menu-img">
+                            </div>
+                            <div class="banner-img">
                               <img src="#" alt="" />
-                           </span>
-                           <span class="menu-title"> Mobiles and Tablets </span>
-                        </a>
-                     </li>
-                     <li>
-                        <a href="#" title="">
-                        <span class="menu-img">
-                           <img src="#" alt="" />
-                        </span>
-                        <span class="menu-title"> Smartphones </span>
-                        </a>
-                     </li>
-                     <li>
-                        <a href="#" title="">
-                        <span class="menu-img">
-                           <img src="#" alt="" />
-                        </span>
-                        <span class="menu-title"> Handbag </span>
-                        </a>
-                     </li>                
-                     <li>
-                        <a href="#" title="">
-                        <span class="menu-img">
-                           <img src="#" alt="" />
-                        </span>
-                        <span class="menu-title"> Portable Speakers </span>
-                        </a>
-                     </li>
-                     <li>
-                        <a href="#" title="" >
-                           <span class="menu-img">
+                            </div>
+                            <div class="clearfix"></div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="#" title="" class="dropdown">
+                      <span class="menu-img">
+                        <img src="#" alt="" />
+                      </span>
+                      <span class="menu-title"> Home Appliances </span>
+                    </a>
+                    <div class="drop-menu">
+                      <div class="one-third">
+                        <div class="cat-title">Games & Toys</div>
+                        <ul>
+                          <li>
+                            <a href="#" title="">Internet Devices</a>
+                          </li>
+                          <li>
+                            <a href="#" title="">Desktops & Monitors</a>
+                          </li>
+                          <li>
+                            <a href="#" title="">Hard Drives & Memory Cards</a>
+                          </li>
+                          <li>
+                            <a href="#" title="">Networking</a>
+                          </li>
+                          <li>
+                            <a href="#" title="">Software</a>
+                          </li>
+                        </ul>
+                        <div class="show">
+                          <a href="#" title="">Shop All</a>
+                        </div>
+                      </div>
+                      <div class="one-third">
+                        <div class="cat-title">Audio</div>
+                        <ul>
+                          <li>
+                            <a href="#" title="">Home Entertainment Systems</a>
+                          </li>
+                          <li>
+                            <a href="#" title="">MP3 & Media Players</a>
+                          </li>
+                          <li>
+                            <a href="#" title="">Software</a>
+                          </li>
+                        </ul>
+                        <div class="show">
+                          <a href="#" title="">Shop All</a>
+                        </div>
+                      </div>
+                      <div class="one-third">
+                        <ul class="banner">
+                          <li>
+                            <div class="banner-text">
+                              <div class="banner-title">Headphones</div>
+                              <div class="more-link">
+                                <a href="#" title=""
+                                  >BUY NOW <img src="#" alt=""
+                                /></a>
+                              </div>
+                            </div>
+                            <div class="banner-img">
                               <img src="#" alt="" />
-                           </span>
-                           <span class="menu-title"> Music & Gaming </span>
-                        </a>
-                     </li>
-                  </ul>
-               </div>
+                            </div>
+                            <div class="clearfix"></div>
+                          </li>
+                          <li>
+                            <div class="banner-text">
+                              <div class="banner-title">TV & Audio</div>
+                              <div class="more-link">
+                                <a href="#" title=""
+                                  >BUY NOW <img src="#" alt=""
+                                /></a>
+                              </div>
+                            </div>
+                            <div class="banner-img">
+                              <img src="#" alt="" />
+                            </div>
+                            <div class="clearfix"></div>
+                          </li>
+                          <li>
+                            <div class="banner-text">
+                              <div class="banner-title">Computers</div>
+                              <div class="more-link">
+                                <a href="#" title=""
+                                  >BUY NOW <img src="#" alt=""
+                                /></a>
+                              </div>
+                            </div>
+                            <div class="banner-img">
+                              <img src="#" alt="" />
+                            </div>
+                            <div class="clearfix"></div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="#" title="">
+                      <span class="menu-img">
+                        <img src="#" alt="" />
+                      </span>
+                      <span class="menu-title"> Mobiles and Tablets </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" title="">
+                      <span class="menu-img">
+                        <img src="#" alt="" />
+                      </span>
+                      <span class="menu-title"> Smartphones </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" title="">
+                      <span class="menu-img">
+                        <img src="#" alt="" />
+                      </span>
+                      <span class="menu-title"> Handbag </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" title="">
+                      <span class="menu-img">
+                        <img src="#" alt="" />
+                      </span>
+                      <span class="menu-title"> Portable Speakers </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" title="">
+                      <span class="menu-img">
+                        <img src="#" alt="" />
+                      </span>
+                      <span class="menu-title"> Music & Gaming </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
             <div class="col-10 search-option justify-content-start">
-               <div class="input-group">
-                  <input type="search" id="form1" class="form-control rounded-start" placeholder="Search product here...">
-                  <button type="button" class="btn btn-search rounded-end">
-                     <i class="fas fa-search"></i>
-                  </button>
-               </div>
+              <div class="input-group">
+                <input
+                  type="search"
+                  id="form1"
+                  class="form-control rounded-start"
+                  placeholder="Search product here..."
+                />
+                <button type="button" class="btn btn-search rounded-end">
+                  <i class="fas fa-search"></i>
+                </button>
+              </div>
             </div>
-            <div class="col-md-9 col-10 nav-menu">
-               <div class="nav-wrap">
-                  <div id="mainnav" class="mainnav">
-                     <ul class="menu">
-                        <li class="column-1">
-                           <a href="#" title="">HOME</a>
-                        </li>
-                        <li class="column-1">
-                           <a href="#" title="">OUR STORE</a>
-                        </li>
-                        <li class="column-1">
-                           <a href="#" title="">BLOG</a>
-                        </li>
-                        <li class="column-1">
-                           <a href="#" title="">CONTACT</a>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
-               <!-- //mobile menu button -->
-               <div class="btn-menu">
-                  <span></span>
-               </div>
+            <div class="col-xl-9 col-lg-9 col-md-9 col-10 nav-menu">
+              <div class="nav-wrap">
+                <div id="mainnav" class="mainnav">
+                  <ul class="menu">
+                    <li class="column-1">
+                      <a href="./index.html" title="">HOME</a>
+                    </li>
+                    <li class="column-1">
+                      <a href="./our_store.html" title="">OUR STORE</a>
+                    </li>
+                    <li class="column-1">
+                      <a href="./blog.html" title="">BLOG</a>
+                    </li>
+                    <li class="column-1">
+                      <a href="./contact.html" title="">CONTACT</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- //mobile menu button -->
+              <div class="btn-menu">
+                <span></span>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </div>
-   </div>
+    </header>
 
+    <main>
+      <!-- Banner -->
+      <div class="container mt-4 mb-1">
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 mb-3">
+            <div class="carousel slide" id="banner" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button data-bs-slide-to="0" data-bs-target="#banner" class="active"></button>
+                <button data-bs-slide-to="1" data-bs-target="#banner"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="5000">
+                  <img
+                    src="./image/banner1.png"
+                    alt="None"
+                    class="rounded-3 w-100"
+                  />
+                  <div class="carousel-caption">
+                    <h6>SUPERCHARGED FOR PROS.</h6>
+                    <h4 class="mt-2">Special Sale</h4>
+                    <p class="mt-2">
+                      From $999.00 or $41.62/mo.<br />for 24 mo. Footnote*
+                    </p>
+                    <div class="mt-2">
+                      <button class="btn-buy-now">BUY NOW</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                  <img
+                    src="./image/banner2.png"
+                    alt="None"
+                    class="rounded-3 w-100"
+                  />
+                  <div class="carousel-caption">
+                    <h6>SUPERCHARGED FOR PROS.</h6>
+                    <h4 class="mt-2">iPadS13+Pro.</h4>
+                    <p class="mt-2">
+                      From $999.00 or $41.62/mo.<br />for 24 mo. Footnote*
+                    </p>
+                    <div class="mt-2">
+                      <button class="btn-buy-now">BUY NOW</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-   <script src="./js/jquery-3.6.0.js"></script>
-   <script src="./js/bootstrap.bundle.min.js"></script>
-   <script src="./js/script.js"></script>
-</body>
+          <div class="col-xl-6 col-lg-6">
+            <div class="row">
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                <div class="x-banner">
+                  <img
+                    src="./image/catbanner-01.png"
+                    alt="None"
+                    class="rounded-3 w-100"
+                  />
+                  <div class="x-banner-caption">
+                    <h6>BEST SALE</h6>
+                    <h4 class="mt-1">Laptops Max</h4>
+                    <p class="mt-1">From $1699.00 or<br />$64.62/mo.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                <div class="x-banner">
+                  <img
+                    src="./image/catbanner-03.png"
+                    alt="None"
+                    class="rounded-3 w-100"
+                  />
+                  <div class="x-banner-caption">
+                    <h6>NEW ARRIVAL</h6>
+                    <h4 class="mt-1">Buy Ipad Air</h4>
+                    <p class="mt-1">From $599 or<br />$49.91/mo.for 12mo.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                <div class="x-banner">
+                  <img
+                    src="./image/catbanner-02.png"
+                    alt="None"
+                    class="rounded-3 w-100"
+                  />
+                  <div class="x-banner-caption">
+                    <h6>15% OFF</h6>
+                    <h4 class="mt-1">Smartwatch 7</h4>
+                    <p class="mt-1">
+                      Shop the latest band<br />styles and colors.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                <div class="x-banner">
+                  <img
+                    src="./image/catbanner-04.png"
+                    alt="None"
+                    class="rounded-3 w-100"
+                  />
+                  <div class="x-banner-caption">
+                    <h6>FREE TRY</h6>
+                    <h4 class="mt-1">AirPods Max</h4>
+                    <p class="mt-1">
+                      High-fidelity playback <br />& ultra-low distortion
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="background-color:#e7e7e7;" class="py-5">
+        <!-- Offer service -->
+        <div class="container mb-5">
+          <div class="row">
+              <div class="owl-one owl-carousel owl-theme">
+                <div class="item d-flex justify-content-evenly service-item">
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                    <img src="./image/Free-Shipping_small 1.png" alt="None" class="w-75"/>
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-sm-8 col-8 service-content">
+                    <h3>Free shipping</h3>
+                    <p>From all orders over $100</p>
+                  </div>
+                </div>
+                <div class="item d-flex justify-content-evenly service-item">
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                    <img src="./image/Easy-Return_small 1.png" alt="None" class="w-75"/>
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-sm-8 col-8 service-content">
+                    <h3>Daily Surprise Offers</h3>
+                    <p>Save up to 25% off</p>
+                  </div>
+                </div>
+                <div class="item d-flex justify-content-evenly service-item">
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                    <img src="./image/Customer-Support_small 1.png" alt="None" class="w-75"/>
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-sm-8 col-8 service-content">
+                    <h3>Support 24/7</h3>
+                    <p>Shop with an expert</p>
+                  </div>
+                </div>
+                <div class="item d-flex justify-content-evenly service-item">
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                    <img src="./image/Free-Shipping_small 1.png" alt="None" class="w-75"/>
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-sm-8 col-8 service-content">
+                    <h3>Affordable Prices</h3>
+                    <p>Get Factory direct price</p>
+                  </div>
+                </div>
+                <div class="item d-flex justify-content-evenly service-item">
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                    <img src="./image/Easy-Return_small 1.png" alt="None" class="w-75"/>
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-sm-8 col-8 service-content">
+                    <h3>Secure Payments</h3>
+                    <p>100% protected payments</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <!-- Categories -->
+        <div class="container bg-white rounded-3 mb-5">
+          <div class="row">
+            <div class="owl-two owl-carousel owl-theme">
+              <div class="category">
+                <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10">
+                  <div class="d-flex justify-content-evenly align-content-center align-items-center categories-outline">
+                    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8 categories-content">
+                      <h3>Smart TV</h3>
+                      <p>12 items</p>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 categories-img">
+                      <img src="./image/tv.png" alt="None" class="w-75"/>
+                    </div>
+                  </div>
+
+                  <div class="d-flex justify-content-evenly align-content-center align-items-center categories-outline">
+                    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8 categories-content">
+                      <h3>Accessories</h3>
+                      <p>10 items</p>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 categories-img">
+                      <img src="./image/earphone.png" alt="None" class="w-75"/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="category">
+                <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10">
+                  <div class="d-flex justify-content-evenly align-content-center align-items-center categories-outline">
+                    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8 categories-content">
+                      <h3>Smartwatches</h3>
+                      <p>8 items</p>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 categories-img">
+                      <img src="./image/watch.png" alt="None" class="w-75"/>
+                    </div>
+                  </div>
+
+                  <div class="d-flex justify-content-evenly align-content-center align-items-center categories-outline">
+                    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8 categories-content">
+                      <h3>Portable Speakers</h3>
+                      <p>9 items</p>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 categories-img">
+                      <img src="./image/speaker.png" alt="None" class="w-75"/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="category">
+                <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10">
+                  <div class="d-flex justify-content-evenly align-content-center align-items-center categories-outline">
+                    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8 categories-content">
+                      <h3>Music & Gaming</h3>
+                      <p>5 items</p>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 categories-img">
+                      <img src="./image/game.png" alt="None" class="w-75"/>
+                    </div>
+                  </div>
+
+                  <div class="d-flex justify-content-evenly align-content-center align-items-center categories-outline">
+                    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8 categories-content">
+                      <h3>Home Appliances</h3>
+                      <p>19 items</p>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 categories-img">
+                      <img src="./image/toaster.png" alt="None" class="w-75"/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="category">
+                <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10">
+                  <div class="d-flex justify-content-evenly align-content-center align-items-center categories-outline">
+                    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8 categories-content">
+                      <h3>Laptops</h3>
+                      <p>17 items</p>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 categories-img">
+                      <img src="./image/macbook.png" alt="None" class="w-75"/>
+                    </div>
+                  </div>
+
+                  <div class="d-flex justify-content-evenly align-content-center align-items-center categories-outline">
+                    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8 categories-content">
+                      <h3>Mobiles & Tablets</h3>
+                      <p>29 items</p>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 categories-img">
+                      <img src="./image/watch.png" alt="None" class="w-75"/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="category">
+                <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10">
+                  <div class="d-flex justify-content-evenly align-content-center align-items-center categories-outline">
+                    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8 categories-content">
+                      <h3>Cameras & Videos</h3>
+                      <p>10 items</p>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 categories-img">
+                      <img src="./image/speaker.png" alt="None" class="w-75"/>
+                    </div>
+                  </div>
+
+                  <div class="d-flex justify-content-evenly align-content-center align-items-center categories-outline">
+                    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8 categories-content">
+                      <h3>Headphones</h3>
+                      <p>15 items</p>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 categories-img">
+                      <img src="./image/sony-headphone.png" alt="None" class="w-75"/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Feature collection -->
+        <div class="container mb-5">
+          <h2 class="mb-2 feat-collect">Featured Collection</h2>
+          <div class="row">
+            <div class="owl-three owl-carousel owl-theme">
+              <div class="collection bg-white rounded-3">
+                <div class="img-collection">
+                  <img src="./image/sony-blue.avif" alt="None" class="w-75 img-1">
+                  <img src="./image/sony-white.avif" alt="None" class="w-75 img-2">
+                </div>
+                <div class="favourite rounded-circle">
+                  <i class="far fa-heart"></i>
+                </div>
+                <div class="discount">
+                  <p>-33%</p>
+                </div>
+                <p class="brand">Sony</p>
+                <p class="device-name">Beoplay A1 Portable Bluetooth Speaker...</p>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="price">
+                  <p class="new-price">
+                    $500 
+                    <span class="old-price">$600</span>
+                  </p>
+                </div>
+                <div class="icon-hover d-flex flex-column">
+                  <i class="fas fa-random"></i>
+                  <i class="far fa-eye"></i>
+                  <i class="fas fa-shopping-bag"></i>
+                </div>
+              </div>
+
+              <div class="collection bg-white rounded-3">
+                <div class="img-collection">
+                  <img src="./image/cam1.avif" alt="None" class="w-75 img-1">
+                  <img src="./image/cam2.avif" alt="None" class="w-75 img-2">
+                </div>
+                <div class="favourite">
+                  <i class="far fa-heart"></i>
+                </div>
+                <p class="brand">Sony</p>
+                <p class="device-name">Beoplay A1 Portable Bluetooth Speaker...</p>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="price">
+                  <p>
+                    $900 
+                  </p>
+                </div>
+                <div class="icon-hover d-flex flex-column">
+                  <i class="fas fa-random"></i>
+                  <i class="far fa-eye"></i>
+                  <i class="fas fa-shopping-bag"></i>
+                </div>
+              </div>
+
+              <div class="collection bg-white rounded-3">
+                <div class="img-collection">
+                  <img src="./image/tab1.avif" alt="None" class="w-75 img-1">
+                  <img src="./image/tab2.avif" alt="None" class="w-75 img-2">
+                </div>
+                <div class="favourite">
+                  <i class="far fa-heart"></i>
+                </div>
+                <p class="brand">Sony</p>
+                <p class="device-name">Beoplay A1 Portable Bluetooth Speaker...</p>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="price">
+                  <p>
+                    $680
+                  </p>
+                </div>
+                <div class="icon-hover d-flex flex-column">
+                  <i class="fas fa-random"></i>
+                  <i class="far fa-eye"></i>
+                  <i class="fas fa-shopping-bag"></i>
+                </div>
+              </div>
+
+              <div class="collection bg-white rounded-3">
+                <div class="img-collection">
+                  <img src="./image/head1.avif" alt="None" class="w-75 img-1">
+                  <img src="./image/head2.avif" alt="None" class="w-75 img-2">
+                </div>
+                <div class="favourite">
+                  <i class="far fa-heart"></i>
+                </div>
+                <p class="brand">Sony</p>
+                <p class="device-name">Beoplay A1 Portable Bluetooth Speaker...</p>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <div class="price">
+                  <p>
+                    $500 
+                  </p>
+                </div>
+                <div class="icon-hover d-flex flex-column">
+                  <i class="fas fa-random"></i>
+                  <i class="far fa-eye"></i>
+                  <i class="fas fa-shopping-bag"></i>
+                </div>
+              </div>
+
+              <div class="collection bg-white rounded-3">
+                <div class="img-collection">
+                  <img src="./image/watch1.avif" alt="None" class="w-75 img-1">
+                  <img src="./image/watch2.avif" alt="None" class="w-75 img-2">
+                </div>
+                <div class="favourite">
+                  <i class="far fa-heart"></i>
+                </div>
+                <p class="brand">Sony</p>
+                <p class="device-name">Beoplay A1 Portable Bluetooth Speaker...</p>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="price">
+                  <p>
+                    $400 
+                  </p>
+                </div>
+                <div class="icon-hover d-flex flex-column">
+                  <i class="fas fa-random"></i>
+                  <i class="far fa-eye"></i>
+                  <i class="fas fa-shopping-bag"></i>
+                </div>
+              </div>
+
+              <div class="collection bg-white rounded-3">
+                <div class="img-collection">
+                  <img src="./image/air1.avif" alt="None" class="w-75 img-1">
+                  <img src="./image/air2.avif" alt="None" class="w-75 img-2">
+                </div>
+                <div class="favourite">
+                  <i class="far fa-heart"></i>
+                </div>
+                <p class="brand">Sony</p>
+                <p class="device-name">Beoplay A1 Portable Bluetooth Speaker...</p>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="price">
+                  <p>
+                    $500 
+                  </p>
+                </div>
+                <div class="icon-hover d-flex flex-column">
+                  <i class="fas fa-random"></i>
+                  <i class="far fa-eye"></i>
+                  <i class="fas fa-shopping-bag"></i>
+                </div>
+              </div>
+
+              <div class="collection bg-white rounded-3">
+                <div class="img-collection">
+                  <img src="./image/speak1.avif" alt="None" class="w-75 img-1">
+                  <img src="./image/speak2.avif" alt="None" class="w-75 img-2">
+                </div>
+                <div class="favourite">
+                  <i class="far fa-heart"></i>
+                </div>
+                <p class="brand">Sony</p>
+                <p class="device-name">Beoplay A1 Portable Bluetooth Speaker...</p>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="price">
+                  <p>
+                    $500
+                  </p>
+                </div>
+                <div class="icon-hover d-flex flex-column">
+                  <i class="fas fa-random"></i>
+                  <i class="far fa-eye"></i>
+                  <i class="fas fa-shopping-bag"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second banner -->
+        <div class="container mb-5">
+          <div class="row">
+            <div class="owl-four owl-carousel owl-theme">
+              <div class="img-sec-banner">
+                <img src="./image/subbanner-01.png" alt="None" class="w-100 rounded-3">
+                <div class="sec-banner-caption-1">
+                  <h6>BIG SCREEN</h6>
+                  <h3>Smart Watch Series 7</h3>
+                  <p>From $399 or $16.62/mo. for 24mo.*</p>
+                </div>
+              </div>
+
+              <div class="img-sec-banner">
+                <img src="./image/subbanner-02.png" alt="None" class="w-100 rounded-3">
+                <div class="sec-banner-caption">
+                  <h6>STUDIO DISPLAY</h6>
+                  <h3>600 nits of brightness.</h3>
+                  <p>27-inch 5K Retina display</p>
+                </div>
+              </div>
+
+              <div class="img-sec-banner">
+                <img src="./image/subbanner-03.png" alt="None" class="w-100 rounded-3">
+                <div class="sec-banner-caption">
+                  <h6>SMARTPHONES</h6>
+                  <h3>Iphone 13 Promax</h3>
+                  <p>Now in Green. From $999.00 or <br>$41.62/mo. for 24 mo. Footnote*</p>
+                </div>
+              </div>
+
+              <div class="img-sec-banner">
+                <img src="./image/subbanner-04.png" alt="None" class="w-100 rounded-3">
+                <div class="sec-banner-caption">
+                  <h6>HOME SPEAKER</h6>
+                  <h3>Room-filling sound</h3>
+                  <p>From $699 or $116.58/mo. for 12 mo.* </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Special Products -->
+        <div class="container mb-5">
+          <h2 class="mb-2 feat-collect">Speacial Products</h2>
+          <div class="row">
+            <div class="owl-ten owl-carousel owl-theme">
+              <div class="special-products">
+                <!-- <div class="rounded-3 mb-3 p-2 d-flex sp-card bg-white">
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="owl-12 owl-carousel" id="sync1">
+                      <div class="item">
+                        <img src="./image/sony-blue.avif" alt="None">
+                      </div>
+                      <div class="item">
+                        <img src="./image/sony-white.avif" alt="None">
+                      </div>
+                      <div class="item">
+                        <img src="./image/sony_black-main.avif" alt="None">
+                      </div>
+                    </div>
+                    <div class="sp-favourite rounded-circle">
+                      <i class="far fa-heart"></i>
+                    </div>
+                    <div class="sp-icon-hover d-flex flex-column">
+                      <i class="fas fa-random"></i>
+                      <i class="far fa-eye"></i>
+                    </div>
+                    <div class="owl-13 owl-carousel" id="sync2">
+                      <div class="item">
+                        <img src="./image/sony-speaker-blue.png" alt="None">
+                      </div>
+                      <div class="item">
+                        <img src="./image/sw.webp" alt="None">
+                      </div>
+                      <div class="item">
+                        <img src="./image/sony-speaker-black.png" alt="None">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                    <p class="sp-brand">Sony</p>
+                    <p class="sp-device-name">Beoplay A1 Portable Bluetooth Speaker...</p>
+                    <div class="sp-stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <div class="sp-price">
+                      <p>
+                        $900 
+                      </p>
+                    </div>
+                    <div class="timer">
+                      <ul class="d-flex align-items-center">
+                        <li>
+                          <div class="days"></div>
+                        </li>
+                        Days
+                        <li>
+                          <div class="hours rounded-circle"></div>
+                        </li>
+                        :
+                        <li>
+                          <div class="minutes rounded-circle"></div>
+                        </li>
+                        :
+                        <li>
+                          <div class="seconds rounded-circle"></div>
+                        </li>
+                      </ul>
+                    </div>
+                    <p class="sp-number">Products: 42</p>
+                    <progress id="num-bar" value="42" max="100"></progress>
+                    <button class="btn-sp rounded-pill">OPTION</button>
+                  </div>
+                </div> -->
+
+                <div class="rounded-3 mb-3 p-xl-2 p-lg-2 p-md-2 p-sm-2 p-3 d-flex sp-card bg-white">
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="carousel" id="sp-img-1">
+                      <div class="carousel-indicators">
+                        <button data-bs-slide-to="0" data-bs-target="#sp-img-1" class="active">
+                          <img src="./image/sony-speaker-blue.png" alt="None">
+                        </button>
+                        <button data-bs-slide-to="1" data-bs-target="#sp-img-1">
+                          <img src="./image/sony-speaker-black.png" alt="None">
+                        </button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img
+                            src="./image/sony-blue.avif"
+                            alt="None"
+                            class="sp-main-img"
+                          />
+                        </div>
+                        <div class="carousel-item">
+                          <img
+                            src="./image/sony_black-main.avif"
+                            alt="None"
+                            class="sp-main-img"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="sp-favourite rounded-circle">
+                      <i class="far fa-heart"></i>
+                    </div>
+                    <div class="sp-icon-hover d-flex flex-column">
+                      <i class="fas fa-random"></i>
+                      <i class="far fa-eye"></i>
+                    </div>
+                    <p class="sp-brand">Sony</p>
+                    <p class="sp-device-name">Beoplay A1 Portable Bluetooth Speaker...</p>
+                    <div class="sp-stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <div class="sp-price">
+                      <p>
+                        $900 
+                      </p>
+                    </div>
+                    <div class="timer">
+                      <ul class="d-flex align-items-center">
+                        <li>
+                          <div class="days"></div>
+                        </li>
+                        Days
+                        <li>
+                          <div class="hours rounded-circle"></div>
+                        </li>
+                        :
+                        <li>
+                          <div class="minutes rounded-circle"></div>
+                        </li>
+                        :
+                        <li>
+                          <div class="seconds rounded-circle"></div>
+                        </li>
+                      </ul>
+                    </div>
+                    <p class="sp-number">Products: 42</p>
+                    <progress id="num-bar" value="42" max="100"></progress>
+                    <button class="btn-sp rounded-pill">OPTION</button>
+                  </div>
+                </div>
+
+                <div class="rounded-3 mb-3 p-xl-2 p-lg-2 p-md-2 p-sm-2 p-3 d-flex sp-card bg-white">
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="carousel" id="sp-img-2">
+                      <div class="carousel-indicators">
+                        <button data-bs-slide-to="0" data-bs-target="#sp-img-2" class="active">
+                          <img src="./image/air1.avif" alt="None">
+                        </button>
+                        <button data-bs-slide-to="1" data-bs-target="#sp-img-2">
+                          <img src="./image/air2.avif" alt="None">
+                        </button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img
+                            src="./image/air1.avif"
+                            alt="None"
+                            class="sp-main-img"
+                          />
+                        </div>
+                        <div class="carousel-item">
+                          <img
+                            src="./image/air2.avif"
+                            alt="None"
+                            class="sp-main-img"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="sp-favourite rounded-circle">
+                      <i class="far fa-heart"></i>
+                    </div>
+                    <div class="sp-icon-hover d-flex flex-column">
+                      <i class="fas fa-random"></i>
+                      <i class="far fa-eye"></i>
+                    </div>
+                    <p class="sp-brand">Sony</p>
+                    <p class="sp-device-name">Beoplay A1 Portable Bluetooth Speaker...</p>
+                    <div class="sp-stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <div class="sp-price">
+                      <p>
+                        $900 
+                      </p>
+                    </div>
+                    <div class="timer">
+                      <ul class="d-flex align-items-center">
+                        <li>
+                          <div class="days"></div>
+                        </li>
+                        Days
+                        <li>
+                          <div class="hours rounded-circle"></div>
+                        </li>
+                        :
+                        <li>
+                          <div class="minutes rounded-circle"></div>
+                        </li>
+                        :
+                        <li>
+                          <div class="seconds rounded-circle"></div>
+                        </li>
+                      </ul>
+                    </div>
+                    <p class="sp-number">Products: 42</p>
+                    <progress id="num-bar" value="42" max="100"></progress>
+                    <button class="btn-sp rounded-pill">OPTION</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="special-products">
+                <div class="rounded-3 mb-3 p-xl-2 p-lg-2 p-md-2 p-sm-2 p-3 d-flex sp-card bg-white">
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="carousel" id="sp-img-3">
+                      <div class="carousel-indicators">
+                        <button data-bs-slide-to="0" data-bs-target="#sp-img-3" class="active">
+                          <img src="./image/cam1.avif" alt="None">
+                        </button>
+                        <button data-bs-slide-to="1" data-bs-target="#sp-img-3">
+                          <img src="./image/cam2.avif" alt="None">
+                        </button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img
+                            src="./image/cam1.avif"
+                            alt="None"
+                            class="sp-main-img"
+                          />
+                        </div>
+                        <div class="carousel-item">
+                          <img
+                            src="./image/cam2.avif"
+                            alt="None"
+                            class="sp-main-img"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="sp-favourite rounded-circle">
+                      <i class="far fa-heart"></i>
+                    </div>
+                    <div class="sp-icon-hover d-flex flex-column">
+                      <i class="fas fa-random"></i>
+                      <i class="far fa-eye"></i>
+                    </div>
+                    <p class="sp-brand">Sony</p>
+                    <p class="sp-device-name">Beoplay A1 Portable Bluetooth Speaker...</p>
+                    <div class="sp-stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <div class="sp-price">
+                      <p>
+                        $900 
+                      </p>
+                    </div>
+                    <div class="timer">
+                      <ul class="d-flex align-items-center">
+                        <li>
+                          <div class="days"></div>
+                        </li>
+                        Days
+                        <li>
+                          <div class="hours rounded-circle"></div>
+                        </li>
+                        :
+                        <li>
+                          <div class="minutes rounded-circle"></div>
+                        </li>
+                        :
+                        <li>
+                          <div class="seconds rounded-circle"></div>
+                        </li>
+                      </ul>
+                    </div>
+                    <p class="sp-number">Products: 42</p>
+                    <progress id="num-bar" value="42" max="100"></progress>
+                    <button class="btn-sp rounded-pill">OPTION</button>
+                  </div>
+                </div>
+
+                <div class="rounded-3 mb-3 p-xl-2 p-lg-2 p-md-2 p-sm-2 p-3 d-flex sp-card bg-white">
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="carousel" id="sp-img-4">
+                      <div class="carousel-indicators">
+                        <button data-bs-slide-to="0" data-bs-target="#sp-img-4" class="active">
+                          <img src="./image/head1.avif" alt="None">
+                        </button>
+                        <button data-bs-slide-to="1" data-bs-target="#sp-img-4">
+                          <img src="./image/head2.avif" alt="None">
+                        </button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img
+                            src="./image/head1.avif"
+                            alt="None"
+                            class="sp-main-img"
+                          />
+                        </div>
+                        <div class="carousel-item">
+                          <img
+                            src="./image/head2.avif"
+                            alt="None"
+                            class="sp-main-img"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="sp-favourite rounded-circle">
+                      <i class="far fa-heart"></i>
+                    </div>
+                    <div class="sp-icon-hover d-flex flex-column">
+                      <i class="fas fa-random"></i>
+                      <i class="far fa-eye"></i>
+                    </div>
+                    <p class="sp-brand">Sony</p>
+                    <p class="sp-device-name">Beoplay A1 Portable Bluetooth Speaker...</p>
+                    <div class="sp-stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <div class="sp-price">
+                      <p>
+                        $900 
+                      </p>
+                    </div>
+                    <div class="timer">
+                      <ul class="d-flex align-items-center">
+                        <li>
+                          <div class="days"></div>
+                        </li>
+                        Days
+                        <li>
+                          <div class="hours rounded-circle"></div>
+                        </li>
+                        :
+                        <li>
+                          <div class="minutes rounded-circle"></div>
+                        </li>
+                        :
+                        <li>
+                          <div class="seconds rounded-circle"></div>
+                        </li>
+                      </ul>
+                    </div>
+                    <p class="sp-number">Products: 42</p>
+                    <progress id="num-bar" value="42" max="100"></progress>
+                    <button class="btn-sp rounded-pill">OPTION</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="special-products">
+                <div class="rounded-3 mb-3 p-xl-2 p-lg-2 p-md-2 p-sm-2 p-3 d-flex sp-card bg-white">
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="carousel" id="sp-img-5">
+                      <div class="carousel-indicators">
+                        <button data-bs-slide-to="0" data-bs-target="#sp-img-5" class="active">
+                          <img src="./image/speak1.avif" alt="None">
+                        </button>
+                        <button data-bs-slide-to="1" data-bs-target="#sp-img-5">
+                          <img src="./image/speak2.avif" alt="None">
+                        </button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img
+                            src="./image/speak1.avif"
+                            alt="None"
+                            class="sp-main-img"
+                          />
+                        </div>
+                        <div class="carousel-item">
+                          <img
+                            src="./image/speak2.avif"
+                            alt="None"
+                            class="sp-main-img"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="sp-favourite rounded-circle">
+                      <i class="far fa-heart"></i>
+                    </div>
+                    <div class="sp-icon-hover d-flex flex-column">
+                      <i class="fas fa-random"></i>
+                      <i class="far fa-eye"></i>
+                    </div>
+                    <p class="sp-brand">Sony</p>
+                    <p class="sp-device-name">Beoplay A1 Portable Bluetooth Speaker...</p>
+                    <div class="sp-stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <div class="sp-price">
+                      <p>
+                        $900 
+                      </p>
+                    </div>
+                    <div class="timer">
+                      <ul class="d-flex align-items-center">
+                        <li>
+                          <div class="days"></div>
+                        </li>
+                        Days
+                        <li>
+                          <div class="hours rounded-circle"></div>
+                        </li>
+                        :
+                        <li>
+                          <div class="minutes rounded-circle"></div>
+                        </li>
+                        :
+                        <li>
+                          <div class="seconds rounded-circle"></div>
+                        </li>
+                      </ul>
+                    </div>
+                    <p class="sp-number">Products: 42</p>
+                    <progress id="num-bar" value="42" max="100"></progress>
+                    <button class="btn-sp rounded-pill">OPTION</button>
+                  </div>
+                </div>
+
+                <div class="rounded-3 mb-3 p-xl-2 p-lg-2 p-md-2 p-sm-2 p-3 d-flex sp-card bg-white">
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="carousel" id="sp-img-6">
+                      <div class="carousel-indicators">
+                        <button data-bs-slide-to="0" data-bs-target="#sp-img-6" class="active">
+                          <img src="./image/tab1.avif" alt="None">
+                        </button>
+                        <button data-bs-slide-to="1" data-bs-target="#sp-img-6">
+                          <img src="./image/tab2.avif" alt="None">
+                        </button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img
+                            src="./image/tab1.avif"
+                            alt="None"
+                            class="sp-main-img"
+                          />
+                        </div>
+                        <div class="carousel-item">
+                          <img
+                            src="./image/tab2.avif"
+                            alt="None"
+                            class="sp-main-img"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="sp-favourite rounded-circle">
+                      <i class="far fa-heart"></i>
+                    </div>
+                    <div class="sp-icon-hover d-flex flex-column">
+                      <i class="fas fa-random"></i>
+                      <i class="far fa-eye"></i>
+                    </div>
+                    <p class="sp-brand">Sony</p>
+                    <p class="sp-device-name">Beoplay A1 Portable Bluetooth Speaker...</p>
+                    <div class="sp-stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <div class="sp-price">
+                      <p>
+                        $900 
+                      </p>
+                    </div>
+                    <div class="timer">
+                      <ul class="d-flex align-items-center">
+                        <li>
+                          <div class="days"></div>
+                        </li>
+                        Days
+                        <li>
+                          <div class="hours rounded-circle"></div>
+                        </li>
+                        :
+                        <li>
+                          <div class="minutes rounded-circle"></div>
+                        </li>
+                        :
+                        <li>
+                          <div class="seconds rounded-circle"></div>
+                        </li>
+                      </ul>
+                    </div>
+                    <p class="sp-number">Products: 42</p>
+                    <progress id="num-bar" value="42" max="100"></progress>
+                    <button class="btn-sp rounded-pill">OPTION</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="special-products">
+                <div class="rounded-3 mb-3 p-xl-2 p-lg-2 p-md-2 p-sm-2 p-3 d-flex sp-card bg-white">
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="carousel" id="sp-img-7">
+                      <div class="carousel-indicators">
+                        <button data-bs-slide-to="0" data-bs-target="#sp-img-7" class="active">
+                          <img src="./image/watch1.avif" alt="None">
+                        </button>
+                        <button data-bs-slide-to="1" data-bs-target="#sp-img-7">
+                          <img src="./image/watch2.avif" alt="None">
+                        </button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img
+                            src="./image/watch1.avif"
+                            alt="None"
+                            class="sp-main-img"
+                          />
+                        </div>
+                        <div class="carousel-item">
+                          <img
+                            src="./image/watch2.avif"
+                            alt="None"
+                            class="sp-main-img"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="sp-favourite rounded-circle">
+                      <i class="far fa-heart"></i>
+                    </div>
+                    <div class="sp-icon-hover d-flex flex-column">
+                      <i class="fas fa-random"></i>
+                      <i class="far fa-eye"></i>
+                    </div>
+                    <p class="sp-brand">Sony</p>
+                    <p class="sp-device-name">Beoplay A1 Portable Bluetooth Speaker...</p>
+                    <div class="sp-stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <div class="sp-price">
+                      <p>
+                        $900 
+                      </p>
+                    </div>
+                    <div class="timer">
+                      <ul class="d-flex align-items-center">
+                        <li>
+                          <div class="days"></div>
+                        </li>
+                        Days
+                        <li>
+                          <div class="hours rounded-circle"></div>
+                        </li>
+                        :
+                        <li>
+                          <div class="minutes rounded-circle"></div>
+                        </li>
+                        :
+                        <li>
+                          <div class="seconds rounded-circle"></div>
+                        </li>
+                      </ul>
+                    </div>
+                    <p class="sp-number">Products: 42</p>
+                    <progress id="num-bar" value="42" max="100"></progress>
+                    <button class="btn-sp rounded-pill">OPTION</button>
+                  </div>
+                </div>
+
+                <div class="rounded-3 mb-3 p-xl-2 p-lg-2 p-md-2 p-sm-2 p-3 d-flex sp-card bg-white">
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="carousel" id="sp-img-8">
+                      <div class="carousel-indicators">
+                        <button data-bs-slide-to="0" data-bs-target="#sp-img-8" class="active">
+                          <img src="./image/sony-speaker-blue.png" alt="None">
+                        </button>
+                        <button data-bs-slide-to="1" data-bs-target="#sp-img-8">
+                          <img src="./image/sony-speaker-black.png" alt="None">
+                        </button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img
+                            src="./image/sony-blue.avif"
+                            alt="None"
+                            class="sp-main-img"
+                          />
+                        </div>
+                        <div class="carousel-item">
+                          <img
+                            src="./image/sony_black-main.avif"
+                            alt="None"
+                            class="sp-main-img"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="sp-favourite rounded-circle">
+                      <i class="far fa-heart"></i>
+                    </div>
+                    <div class="sp-icon-hover d-flex flex-column">
+                      <i class="fas fa-random"></i>
+                      <i class="far fa-eye"></i>
+                    </div>
+                    <p class="sp-brand">Sony</p>
+                    <p class="sp-device-name">Beoplay A1 Portable Bluetooth Speaker...</p>
+                    <div class="sp-stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <div class="sp-price">
+                      <p>
+                        $900 
+                      </p>
+                    </div>
+                    <div class="timer">
+                      <ul class="d-flex align-items-center">
+                        <li>
+                          <div class="days"></div>
+                        </li>
+                        Days
+                        <li>
+                          <div class="hours rounded-circle"></div>
+                        </li>
+                        :
+                        <li>
+                          <div class="minutes rounded-circle"></div>
+                        </li>
+                        :
+                        <li>
+                          <div class="seconds rounded-circle"></div>
+                        </li>
+                      </ul>
+                    </div>
+                    <p class="sp-number">Products: 42</p>
+                    <progress id="num-bar" value="42" max="100"></progress>
+                    <button class="btn-sp rounded-pill">OPTION</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Our Popular Products -->
+        <div class="container mb-5">
+          <h2 class="mb-2 feat-collect">Our Popular Products</h2>
+          <div class="row">
+            <div class="col-xl-3 col-lg-3">
+              <div class="pop-pr nav nav-tabs flex-xl-column flex-lg-column text-center rounded-3 border-0 pb-xl-5 pb-lg-5" id="v-tabs-tab" role="tablist">
+                <a class="nav-link active text-start d-flex align-items-center p-xl-3" id="v-tabs-home-tab" data-bs-toggle="tab" href="#v-tabs-home" role="tab" aria-controls="v-tabs-home" aria-selected="true">
+                  <img src="./image/smart-watch.png" alt="None" class="w-25">
+                  <p class="popular-para">Smartwatch</p> 
+                </a>
+                <a class="nav-link text-start d-flex align-items-center p-xl-3" id="v-tabs-messages-tab" data-bs-toggle="tab" href="#v-tabs-messages" role="tab" aria-controls="v-tabs-messages" aria-selected="false">
+                  <img src="./image/macbook.png" alt="None" class="w-25">
+                  <p class="popular-para">Laptops</p> 
+                </a>
+                <a class="nav-link text-start d-flex align-items-center p-xl-3" id="v-tabs-profile-tab" data-bs-toggle="tab" href="#v-tabs-profile" role="tab" aria-controls="v-tabs-profile" aria-selected="false">
+                  <img src="./image/speaker.png" alt="None" class="w-25">
+                  <p class="popular-para">Speakers</p> 
+                </a>
+              </div>
+            </div>
+
+            <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+              <div class="tab-content" id="v-tabs-tabContent">
+                <div class="tab-pane fade show active" id="v-tabs-home" role="tabpanel" aria-labelledby="v-tabs-home-tab">
+                  <div class="row d-sm-flex">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
+                      <img src="./image/cat-product-banner.jpg" alt="None" class="img-popular rounded-3">
+                    </div>
+                    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-6 col-6">
+                      <div class="owl-nine owl-carousel owl-theme">
+                        <div class="collection bg-white rounded-3">
+                          <div class="img-collection">
+                            <img src="./image/speak1.avif" alt="None" class="w-75 img-1">
+                            <img src="./image/speak2.avif" alt="None" class="w-75 img-2">
+                          </div>
+                          <div class="favourite">
+                            <i class="far fa-heart"></i>
+                          </div>
+                          <p class="brand">Sony</p>
+                          <p class="device-name">Beoplay A1 Portable Bluetooth Speaker...</p>
+                          <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                          </div>
+                          <div class="price">
+                            <p>
+                              $500
+                            </p>
+                          </div>
+                          <div class="icon-hover d-flex flex-column">
+                            <i class="fas fa-random"></i>
+                            <i class="far fa-eye"></i>
+                            <i class="fas fa-shopping-bag"></i>
+                          </div>
+                        </div>
+  
+                        <div class="collection bg-white rounded-3">
+                          <div class="img-collection">
+                            <img src="./image/air1.avif" alt="None" class="w-75 img-1">
+                            <img src="./image/air2.avif" alt="None" class="w-75 img-2">
+                          </div>
+                          <div class="favourite">
+                            <i class="far fa-heart"></i>
+                          </div>
+                          <p class="brand">Sony</p>
+                          <p class="device-name">Beoplay A1 Portable Bluetooth Speaker...</p>
+                          <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                          </div>
+                          <div class="price">
+                            <p>
+                              $500
+                            </p>
+                          </div>
+                          <div class="icon-hover d-flex flex-column">
+                            <i class="fas fa-random"></i>
+                            <i class="far fa-eye"></i>
+                            <i class="fas fa-shopping-bag"></i>
+                          </div>
+                        </div>
+  
+                        <div class="collection bg-white rounded-3">
+                          <div class="img-collection">
+                            <img src="./image/tab1.avif" alt="None" class="w-75 img-1">
+                            <img src="./image/tab2.avif" alt="None" class="w-75 img-2">
+                          </div>
+                          <div class="favourite">
+                            <i class="far fa-heart"></i>
+                          </div>
+                          <p class="brand">Sony</p>
+                          <p class="device-name">Beoplay A1 Portable Bluetooth Speaker...</p>
+                          <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                          </div>
+                          <div class="price">
+                            <p>
+                              $500
+                            </p>
+                          </div>
+                          <div class="icon-hover d-flex flex-column">
+                            <i class="fas fa-random"></i>
+                            <i class="far fa-eye"></i>
+                            <i class="fas fa-shopping-bag"></i>
+                          </div>
+                        </div>
+  
+                        <div class="collection bg-white rounded-3">
+                          <div class="img-collection">
+                            <img src="./image/cam1.avif" alt="None" class="w-75 img-1">
+                            <img src="./image/cam2.avif" alt="None" class="w-75 img-2">
+                          </div>
+                          <div class="favourite">
+                            <i class="far fa-heart"></i>
+                          </div>
+                          <p class="brand">Sony</p>
+                          <p class="device-name">Beoplay A1 Portable Bluetooth Speaker...</p>
+                          <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                          </div>
+                          <div class="price">
+                            <p>
+                              $500 
+                            </p>
+                          </div>
+                          <div class="icon-hover d-flex flex-column">
+                            <i class="fas fa-random"></i>
+                            <i class="far fa-eye"></i>
+                            <i class="fas fa-shopping-bag"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tab-pane fade" id="v-tabs-messages" role="tabpanel" aria-labelledby="v-tabs-messages-tab">
+                  <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
+                      <img src="./image/cat-product-banner-02.jpg" alt="None" class="img-popular rounded-3">
+                    </div>
+                    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-6 col-6">
+                       <div class="owl-nine owl-carousel owl-theme">
+                        <div class="collection bg-white rounded-3">
+                          <div class="img-collection">
+                            <img src="./image/speak1.avif" alt="None" class="w-75 img-1">
+                            <img src="./image/speak2.avif" alt="None" class="w-75 img-2">
+                          </div>
+                          <div class="favourite">
+                            <i class="far fa-heart"></i>
+                          </div>
+                          <p class="brand">Sony</p>
+                          <p class="device-name">Beoplay A1 Portable Bluetooth Speaker...</p>
+                          <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                          </div>
+                          <div class="price">
+                            <p>
+                              $500
+                            </p>
+                          </div>
+                          <div class="icon-hover d-flex flex-column">
+                            <i class="fas fa-random"></i>
+                            <i class="far fa-eye"></i>
+                            <i class="fas fa-shopping-bag"></i>
+                          </div>
+                        </div>
+  
+                        <div class="collection bg-white rounded-3">
+                          <div class="img-collection">
+                            <img src="./image/air1.avif" alt="None" class="w-75 img-1">
+                            <img src="./image/air2.avif" alt="None" class="w-75 img-2">
+                          </div>
+                          <div class="favourite">
+                            <i class="far fa-heart"></i>
+                          </div>
+                          <p class="brand">Sony</p>
+                          <p class="device-name">Beoplay A1 Portable Bluetooth Speaker...</p>
+                          <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                          </div>
+                          <div class="price">
+                            <p>
+                              $500
+                            </p>
+                          </div>
+                          <div class="icon-hover d-flex flex-column">
+                            <i class="fas fa-random"></i>
+                            <i class="far fa-eye"></i>
+                            <i class="fas fa-shopping-bag"></i>
+                          </div>
+                        </div>
+  
+                        <div class="collection bg-white rounded-3">
+                          <div class="img-collection">
+                            <img src="./image/tab1.avif" alt="None" class="w-75 img-1">
+                            <img src="./image/tab2.avif" alt="None" class="w-75 img-2">
+                          </div>
+                          <div class="favourite">
+                            <i class="far fa-heart"></i>
+                          </div>
+                          <p class="brand">Sony</p>
+                          <p class="device-name">Beoplay A1 Portable Bluetooth Speaker...</p>
+                          <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                          </div>
+                          <div class="price">
+                            <p>
+                              $500
+                            </p>
+                          </div>
+                          <div class="icon-hover d-flex flex-column">
+                            <i class="fas fa-random"></i>
+                            <i class="far fa-eye"></i>
+                            <i class="fas fa-shopping-bag"></i>
+                          </div>
+                        </div>
+  
+                        <div class="collection bg-white rounded-3">
+                          <div class="img-collection">
+                            <img src="./image/cam1.avif" alt="None" class="w-75 img-1">
+                            <img src="./image/cam2.avif" alt="None" class="w-75 img-2">
+                          </div>
+                          <div class="favourite">
+                            <i class="far fa-heart"></i>
+                          </div>
+                          <p class="brand">Sony</p>
+                          <p class="device-name">Beoplay A1 Portable Bluetooth Speaker...</p>
+                          <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                          </div>
+                          <div class="price">
+                            <p>
+                              $500 
+                            </p>
+                          </div>
+                          <div class="icon-hover d-flex flex-column">
+                            <i class="fas fa-random"></i>
+                            <i class="far fa-eye"></i>
+                            <i class="fas fa-shopping-bag"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tab-pane fade" id="v-tabs-profile" role="tabpanel" aria-labelledby="v-tabs-profile-tab">
+                  <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
+                      <img src="./image/cat-product-banner-03.jpg" alt="None" class="img-popular rounded-3">
+                    </div>
+                    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-6 col-6">
+                       <div class="owl-nine owl-carousel owl-theme">
+                        <div class="collection bg-white rounded-3">
+                          <div class="img-collection">
+                            <img src="./image/speak1.avif" alt="None" class="w-75 img-1">
+                            <img src="./image/speak2.avif" alt="None" class="w-75 img-2">
+                          </div>
+                          <div class="favourite">
+                            <i class="far fa-heart"></i>
+                          </div>
+                          <p class="brand">Sony</p>
+                          <p class="device-name">Beoplay A1 Portable Bluetooth Speaker...</p>
+                          <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                          </div>
+                          <div class="price">
+                            <p>
+                              $500
+                            </p>
+                          </div>
+                          <div class="icon-hover d-flex flex-column">
+                            <i class="fas fa-random"></i>
+                            <i class="far fa-eye"></i>
+                            <i class="fas fa-shopping-bag"></i>
+                          </div>
+                        </div>
+  
+                        <div class="collection bg-white rounded-3">
+                          <div class="img-collection">
+                            <img src="./image/air1.avif" alt="None" class="w-75 img-1">
+                            <img src="./image/air2.avif" alt="None" class="w-75 img-2">
+                          </div>
+                          <div class="favourite">
+                            <i class="far fa-heart"></i>
+                          </div>
+                          <p class="brand">Sony</p>
+                          <p class="device-name">Beoplay A1 Portable Bluetooth Speaker...</p>
+                          <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                          </div>
+                          <div class="price">
+                            <p>
+                              $500
+                            </p>
+                          </div>
+                          <div class="icon-hover d-flex flex-column">
+                            <i class="fas fa-random"></i>
+                            <i class="far fa-eye"></i>
+                            <i class="fas fa-shopping-bag"></i>
+                          </div>
+                        </div>
+  
+                        <div class="collection bg-white rounded-3">
+                          <div class="img-collection">
+                            <img src="./image/tab1.avif" alt="None" class="w-75 img-1">
+                            <img src="./image/tab2.avif" alt="None" class="w-75 img-2">
+                          </div>
+                          <div class="favourite">
+                            <i class="far fa-heart"></i>
+                          </div>
+                          <p class="brand">Sony</p>
+                          <p class="device-name">Beoplay A1 Portable Bluetooth Speaker...</p>
+                          <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                          </div>
+                          <div class="price">
+                            <p>
+                              $500
+                            </p>
+                          </div>
+                          <div class="icon-hover d-flex flex-column">
+                            <i class="fas fa-random"></i>
+                            <i class="far fa-eye"></i>
+                            <i class="fas fa-shopping-bag"></i>
+                          </div>
+                        </div>
+  
+                        <div class="collection bg-white rounded-3">
+                          <div class="img-collection">
+                            <img src="./image/cam1.avif" alt="None" class="w-75 img-1">
+                            <img src="./image/cam2.avif" alt="None" class="w-75 img-2">
+                          </div>
+                          <div class="favourite">
+                            <i class="far fa-heart"></i>
+                          </div>
+                          <p class="brand">Sony</p>
+                          <p class="device-name">Beoplay A1 Portable Bluetooth Speaker...</p>
+                          <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                          </div>
+                          <div class="price">
+                            <p>
+                              $500 
+                            </p>
+                          </div>
+                          <div class="icon-hover d-flex flex-column">
+                            <i class="fas fa-random"></i>
+                            <i class="far fa-eye"></i>
+                            <i class="fas fa-shopping-bag"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Brand -->
+        <div class="container bg-white rounded-3 mb-5" style="cursor:pointer;">
+          <div class="row">
+            <div class="owl-seven owl-carousel owl-theme">
+              <div class="brand-banner">
+                <img src="./image/brand-01.webp" alt="None" class="w-75">
+              </div>
+              <div class="brand-banner">
+                <img src="./image/brand-2.png" alt="None" class="w-75">
+              </div>
+              <div class="brand-banner">
+                <img src="./image/brand-3.png" alt="None" class="w-75">
+              </div>
+              <div class="brand-banner">
+                <img src="./image/brand-04.webp" alt="None" class="w-75">
+              </div>
+              <div class="brand-banner">
+                <img src="./image/brand-5.png" alt="None" class="w-75">
+              </div>
+              <div class="brand-banner">
+                <img src="./image/brand-6.png" alt="None" class="w-75">
+              </div>
+              <div class="brand-banner">
+                <img src="./image/brand-7.png" alt="None" class="w-75">
+              </div>
+              <div class="brand-banner">
+                <img src="./image/brand-8.png" alt="None" class="w-75">
+              </div>
+              <div class="brand-banner">
+                <img src="./image/brand-9.png" alt="None" class="w-75">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Latest news -->
+        <div class="container">
+          <h2 class="mb-2 feat-collect">Our latest news</h2>
+          <div class="row">
+            <div class="owl-eight owl-carousel owl-theme">
+              <div class="blog-item bg-white rounded-3">
+                <div class="blog-img">
+                  <img src="./image/blog-1.png" alt="None" class="w-100 rounded-top">
+                </div>
+                <div class="blog-content p-3">
+                  <h6>11 JUNE, 2022</h6>
+                  <h3>A Beautiful Sunday Morning...</h3>
+                  <p>You are only as good as your last collection, which is an enormous Pressure...</p>
+                </div>
+                <div class="px-3 pb-3">
+                  <button class="btn-read-more rounded-pill">READ MORE</button>
+                </div>
+              </div>
+
+               <div class="blog-item bg-white rounded-3">
+                <div class="blog-img">
+                  <img src="./image/blog-2.png" alt="None" class="w-100 rounded-top">
+                </div>
+                <div class="blog-content p-3">
+                  <h6>11 JUNE, 2022</h6>
+                  <h3>A Beautiful Sunday Morning...</h3>
+                  <p>You are only as good as your last collection, which is an enormous Pressure...</p>
+                </div>
+                <div class="px-3 pb-3">
+                  <button class="btn-read-more rounded-pill">READ MORE</button>
+                </div>
+              </div>
+
+               <div class="blog-item bg-white rounded-3">
+                <div class="blog-img">
+                  <img src="./image/blog-3.png" alt="None" class="w-100 rounded-top">
+                </div>
+                <div class="blog-content p-3">
+                  <h6>11 JUNE, 2022</h6>
+                  <h3>A Beautiful Sunday Morning...</h3>
+                  <p>You are only as good as your last collection, which is an enormous Pressure...</p>
+                </div>
+                <div class="px-3 pb-3">
+                  <button class="btn-read-more rounded-pill">READ MORE</button>
+                </div>
+              </div>
+
+               <div class="blog-item bg-white rounded-3">
+                <div class="blog-img">
+                  <img src="./image/blog-4.webp" alt="None" class="w-100 rounded-top">
+                </div>
+                <div class="blog-content p-3">
+                  <h6>11 JUNE, 2022</h6>
+                  <h3>A Beautiful Sunday Morning...</h3>
+                  <p>You are only as good as your last collection, which is an enormous Pressure...</p>
+                </div>
+                <div class="px-3 pb-3">
+                  <button class="btn-read-more rounded-pill">READ MORE</button>
+                </div>
+              </div>
+
+               <div class="blog-item bg-white rounded-3">
+                <div class="blog-img">
+                  <img src="./image/blog-5.webp" alt="None" class="w-100 rounded-top">
+                </div>
+                <div class="blog-content p-3">
+                  <h6>11 JUNE, 2022</h6>
+                  <h3>A Beautiful Sunday Morning...</h3>
+                  <p>You are only as good as your last collection, which is an enormous Pressure...</p>
+                </div>
+                <div class="px-3 pb-3">
+                  <button class="btn-read-more rounded-pill">READ MORE</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 d-flex align-items-center foot-icon">
+              <img src="./image/newsletter-icon.png" alt="None">
+              <p class="sub-footer-top mx-2">Sign Up For Newsletter</p>
+            </div>
+            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 group-input-btn-foot-top">
+              <div class="input-group bg-white rounded-3 align-items-center">
+                <input type="text" class="form-control" placeholder="Your email..." name="subscribe" id="input-foot-top">
+                <div class="input-group-append">
+                  <button class="btn btn-sub-foot" type="button">Subscribe</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-main">
+        <div class="container">
+          <div class="row">
+            <div class="accordion accordion-flush" id="acctong">
+              <div class="accordion-item contact-us-mobile">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" data-bs-target="#contact-us" data-bs-toggle="collapse">
+                    Contact Us
+                  </button>
+                </h2>
+                <div class="accordion-collapse collapse" id="contact-us" data-bs-parent="#acctong">
+                  <div class="accordion-body">
+                    <p>Demo Store <br>No. 1259 Freedom, New York, <br>1111 <br>United States</p>
+                    <p>+91-987654321</p>
+                    <p>Monday - Friday 10AM - 9PM</p> 
+                    <p>Demo@example.com</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item information-mobile">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" data-bs-target="#info" data-bs-toggle="collapse">
+                    Information
+                  </button>
+                </h2>
+                <div class="accordion-collapse collapse" id="info" data-bs-parent="#acctong">
+                  <div class="accordion-body">
+                    <ul>
+                      <li><a href="#">Privacy Policy</a></li>
+                      <li><a href="#">Refund Policy</a></li>
+                      <li><a href="#">Shipping Policy</a></li>
+                      <li><a href="#">Terms Of Service</a></li>
+                      <li><a href="#">Blogs</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item account-mobile">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" data-bs-target="#account" data-bs-toggle="collapse">
+                    Account
+                  </button>
+                </h2>
+                <div class="accordion-collapse collapse" id="account" data-bs-parent="#acctong">
+                  <div class="accordion-body">
+                    <ul>
+                      <li><a href="#">Search</a></li>
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">FAQ</a></li>
+                      <li><a href="#">Contact</a></li>
+                      <li><a href="#">Size Chart</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item quicklinks-mobile">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" data-bs-target="#qlink" data-bs-toggle="collapse">
+                    Quick Links
+                  </button>
+                </h2>
+                <div class="accordion-collapse collapse" id="qlink" data-bs-parent="#acctong">
+                  <div class="accordion-body">
+                    <ul>
+                      <li><a href="#">Accessories</a></li>
+                      <li><a href="#">Laptops</a></li>
+                      <li><a href="#">Headphones</a></li>
+                      <li><a href="#">Smart Watches</a></li>
+                      <li><a href="#">Tablets</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item ourapp-mobile">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" data-bs-target="#app" data-bs-toggle="collapse">
+                    Our App
+                  </button>
+                </h2>
+                <div class="accordion-collapse collapse" id="app" data-bs-parent="#acctong">
+                  <div class="accordion-body d-flex">
+                    <img src="./image/app-store.png" alt="None" class="w-50 mx-1">
+                    <img src="./image/ch-play.png" alt="None" class="w-50">
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            
+            <div class="col-xl-3 col-lg-3 contact-us">
+              <h6>Contact Us</h6>
+              <p>Demo Store <br>No. 1259 Freedom, New York, <br>1111 <br>United States</p>
+              <p>+91-987654321</p>
+              <p>Monday - Friday 10AM - 9PM</p>
+              <p>Demo@example.com</p>
+              <div class="footer-media">
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-pinterest"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+              </div>
+            </div>
+
+            <div class="col-xl-2 col-lg-2 information">
+              <h6>Information</h6>
+              <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Refund Policy</a></li>
+                <li><a href="#">Shipping Policy</a></li>
+                <li><a href="#">Terms Of Service</a></li>
+                <li><a href="#">Blogs</a></li>
+              </ul>
+            </div>
+
+            <div class="col-xl-2 col-lg-2 account">
+              <h6>Account</h6>
+              <ul>
+                <li><a href="#">Search</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Size Chart</a></li>
+              </ul>
+            </div>
+
+            <div class="col-xl-2 col-lg-2 quicklinks">
+              <h6>Quick Links</h6>
+              <ul>
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#">Laptops</a></li>
+                <li><a href="#">Headphones</a></li>
+                <li><a href="#">Smart Watches</a></li>
+                <li><a href="#">Tablets</a></li>
+              </ul>
+            </div>
+
+            <div class="col-xl-3 col-lg-3 ourapp">
+              <h6>Our App</h6>
+              <p class="ourapp-slogan">Download our App and get <br>extra 15% Discount on your <br>first Order..!</p>
+              <img src="./image/app-store.png" alt="None" class="w-75 mb-2">
+              <img src="./image/ch-play.png" alt="None" class="w-75">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 footer-copyright">
+              <i class="far fa-copyright"></i>
+              <span>2022,Digitic Powered by Shopify</span>
+            </div>
+            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 footer-payment text-xl-end text-lg-end">
+              <i class="fab fa-cc-visa"></i>
+              <i class="fab fa-cc-mastercard"></i>
+              <i class="fab fa-cc-amex"></i>
+              <i class="fab fa-cc-paypal"></i>
+              <i class="fab fa-cc-discover"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <button type="button" class="rounded-circle" id="btn-back-to-top">
+      <i class="fas fa-angle-double-up"></i>
+    </button>
+
+    <script src="./js/jquery-3.6.0.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/myScript.js"></script>
+  </body>
 </html>
