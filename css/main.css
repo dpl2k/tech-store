@@ -13,6 +13,10 @@ html{
    src: url("../fonts/Rubik-Italic-VariableFont_wght.ttf");
 }
 
+.fas{
+   font-weight: 900 !important;
+}
+
 :root{
    --main-color:#131931;
    --secondary-color:#FEBD69;
