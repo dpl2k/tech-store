@@ -216,6 +216,7 @@ a {
    color: var(--white-color) !important;
 }
 .nav-link{
+   font-weight: 600;
    color: var(--main-color) !important;
    background-color: #e7e7e7 !important;
    margin-left: 5px;
