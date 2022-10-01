@@ -345,7 +345,7 @@ a {
    background-color: var(--secondary-color);
    border: none;
    display: none;
-   z-index: 1;
+   z-index: 10;
 }
 #btn-back-to-top:hover {
    background-color: var(--xam);

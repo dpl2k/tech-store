@@ -345,7 +345,7 @@ a {
    background-color: var(--secondary-color);
    border: none;
    display: none;
-   z-index: 1;
+   z-index: 10;
 }
 #btn-back-to-top:hover {
    background-color: var(--xam);
@@ -552,4 +552,11 @@ a {
    }
 }
 
-@media screen and (max-width:540px) {}
+@media screen and (width:712px) {
+   .contact-form input,
+   .contact-form textarea {
+      border: none;
+      background-color: #f7f7f7;
+      width: 90%;
+   }
+}

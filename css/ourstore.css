@@ -1088,3 +1088,14 @@ a {
       left: 33%;
    }
 }
+
+@media screen and (width:712px) {
+   .collection-three .img-collection, .collection .img-collection{
+      top: -4%;
+      left: 9%;
+   }
+
+   .img-row-1, .img-row-2{
+      transform: translateY(8%);
+   }
+}

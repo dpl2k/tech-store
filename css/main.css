@@ -1359,3 +1359,15 @@ a{
       top: 140%;
    }
 }
+
+@media screen and (width:712px){
+   .special-products .carousel-indicators{
+      top:90%;
+      left: -3%;
+   }
+
+   .sp-main-img{
+      width: 75% !important;
+      transform: translateX(6%);
+   }
+}
