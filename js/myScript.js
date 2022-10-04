@@ -62,6 +62,21 @@ function makeTimer() {
 }
 setInterval(function () { makeTimer(); }, 1000);
 
+// Quantity product view
+$('#btn-minus').click(function () {
+   var soluong = $('#soluong').val();
+   soluong--;
+   if (soluong < 0)
+      soluong = 0;
+   $('#soluong').val(soluong);
+})
+$('#btn-plus').click(function () {
+   var soluong = $('#soluong').val();
+   soluong++;
+   $('#soluong').val(soluong);
+})
+
+
 $(document).ready(function () {
    $(".owl-one, .owl-two").owlCarousel({
       autoplay: true,
