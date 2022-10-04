@@ -13,7 +13,7 @@ html{
    src: url("../fonts/Rubik-Italic-VariableFont_wght.ttf");
 }
 
-.fas{
+.fas, .fab{
    font-weight: 900 !important;
 }
 
