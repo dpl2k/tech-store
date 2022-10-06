@@ -1178,7 +1178,7 @@ a{
 
 }
 
-@media screen and (max-width:760px){  
+@media screen and (max-width:640px){  
    .sp-main-img {
       width: 100% !important;
       transform: translateX(-25px);
