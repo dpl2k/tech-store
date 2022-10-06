@@ -13,6 +13,10 @@ html{
    src: url("../fonts/Rubik-Italic-VariableFont_wght.ttf");
 }
 
+.fas, .fab{
+   font-weight: 900 !important;
+}
+
 :root{
    --main-color:#131931;
    --secondary-color:#FEBD69;
@@ -1353,5 +1357,17 @@ a{
 
    .special-products .carousel-indicators{
       top: 140%;
+   }
+}
+
+@media screen and (width:712px){
+   .special-products .carousel-indicators{
+      top:90%;
+      left: -3%;
+   }
+
+   .sp-main-img{
+      width: 75% !important;
+      transform: translateX(6%);
    }
 }

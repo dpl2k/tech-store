@@ -14,6 +14,7 @@ html {
    font-family: rubik-italic;
    src: url("../fonts/Rubik-Italic-VariableFont_wght.ttf");
 }
+
 .fas {
    font-weight: 900 !important;
 }
@@ -128,50 +129,400 @@ a {
 }
 
 /* ---------------------------------- */
-/* BLOG */
-.blog-item {
-   cursor: pointer;
-   transition: all 0.3s linear;
+/* Product_view */
+.img-view{
+   border: 1px solid #ccc;
 }
-
-.blog-item:hover {
-   transform: scale(0.95);
-   transition: all 0.3s linear;
-}
-
-.blog-content {
+/* -------------------------------------- */
+/* You may like */
+/* Feature collection */
+.feat-collect {
    font-family: rubik;
+   color: var(--main-color);
+   font-weight: 600;
 }
 
-.blog-content h6 {
-   color: var(--xam);
-   font-size: 14px;
-   margin-bottom: 8px;
+.owl-prev {
+   position: absolute;
+   top: -55px;
+   font-size: xx-large;
+   right: 40px;
+   width: 20px;
+   height: 20px;
+   /* border: 1px solid #ccc; */
+   /* background-color: #4D4D4D; */
+   color: #000 !important;
+   font-size: 40px !important;
 }
 
-.blog-content h3 {
+.owl-prev:hover,
+.owl-next:hover {
+   background: none !important;
+}
+
+.owl-next {
+   position: absolute;
+   top: -55px;
+   font-size: 16px;
+   right: 10px;
+   width: 20px;
+   height: 20px;
+   border: 1px solid #ccc;
+   /* background-color: #4D4D4D !important; */
+   color: #000 !important;
+   font-size: 40px !important;
+}
+
+.collection {
+   height: 365px;
+   position: relative;
+   cursor: pointer;
+}
+
+.img-collection {
+   position: relative;
+   left: 11%;
+   top: 3%;
+}
+
+.img-1 {
+   /* display: block; */
+   position: absolute;
+   opacity: 1;
+   transition: all 0.2s linear;
+}
+
+.img-2 {
+   /* display: none; */
+   position: absolute;
+   opacity: 0;
+   transition: all 0.2s linear;
+}
+
+.collection:hover .img-1 {
+   /* display: none; */
+   opacity: 0;
+   transition: all 0.2s linear;
+}
+
+.collection:hover .img-2 {
+   /* display: block; */
+   opacity: 1;
+   transition: all 0.2s linear;
+}
+
+.favourite {
+   position: absolute;
+   right: 3%;
+   top: 3%;
+   font-size: medium;
+   color: var(--main-color);
+   font-weight: 600;
+   width: 20px;
+   height: 20px;
+}
+
+.discount {
+   position: absolute;
    color: var(--text-color);
-   font-size: 18px;
-   font-weight: bold;
-   margin-bottom: 8px;
+   background-color: var(--secondary-color);
+   border-radius: 10px;
+   text-align: center;
+   width: 35px;
+   height: 13px;
+   top: 4%;
+   left: 3%;
 }
 
-.blog-content p {
+.discount p {
+   font-size: 5px;
+}
+
+.brand {
+   position: absolute;
+   top: 45%;
+   left: 8%;
+   font-weight: 500;
+   color: #BF4D08;
+   font-family: rubik;
+   font-size: 14px;
+}
+
+.device-name {
+   position: absolute;
+   top: 55%;
+   left: 8%;
+   font-weight: 600;
+   font-size: 15px;
+   color: var(--main-color);
+}
+
+.stars {
+   position: absolute;
+   top: 73%;
+   left: 8%;
+   color: #e0e022;
+}
+
+.price {
+   position: absolute;
+   top: 85%;
+   left: 8%;
+   font-size: 16px;
+   color: var(--main-color);
+   font-weight: 600;
+}
+
+.price .new-price {
+   font-weight: 600;
+   color: #BF4D08;
+}
+
+.price .new-price .old-price {
    color: var(--xam);
+   text-decoration: line-through;
+   font-weight: 400;
+   margin-left: 5px;
 }
 
-.blog-item .btn-read-more {
-   width: 120px;
-   height: 40px;
-   background-color: var(--main-color);
+.icon-hover {
+   position: absolute;
+   right: 3%;
+   top: 9%;
+   opacity: 0;
+   transition: all 0.2s linear;
+}
+
+.icon-hover i {
+   margin-top: 10px;
+   color: var(--main-color);
+   font-size: medium;
+   width: 20px;
+   height: 20px;
+}
+
+.icon-hover i:hover {
+   background-color: var(--secondary-color);
+   transition: all 0.2s linear;
+   border-radius: 50%;
+   text-align: center;
+}
+
+.collection:hover .icon-hover {
+   opacity: 1;
+   transition: all 0.2s linear;
+}
+
+.favourite:hover {
+   background-color: var(--secondary-color);
+   transition: all 0.2s linear;
+   border-radius: 50%;
+   text-align: center;
+}
+
+.pr-view-device-name{
+   font-size: 20px;
+   font-weight: 600;
+   font-family: rubik;
+   color: var(--text-color);
+}
+
+.pr-view-price{
+   font-size: 20px;
+
+}
+
+.pr-view-price .new-price{
+   font-weight: 600;
+   color: #BF4D08;
+}
+
+.pr-view-price .new-price .old-price{
+   text-decoration: line-through;
+   font-weight: 300;
+   color: var(--xam);
+   margin-left: 5px;
+   font-size: 16px;
+}
+
+.pr-view-discount{
+   margin-left: 10px;
+   background-color: var(--secondary-color);
+   color: var(--text-color);
+   font-size: 10px;
+   padding: 2px;
+   font-weight: 600;
+}
+
+.pr-view-star{
+   color: #e0e022;
+}
+
+.pr-review{
+   color: var(--text-color);
+}
+
+.write-review{
+   color: var(--text-color);
+}
+
+.timer {
+   margin-bottom: 10px;
+}
+
+.timer .days {
+   color: var(--text-color);
+   font-weight: 800;
+   margin-right: 10px;
+   font-size: 14px;
+   transform: translateY(-2px);
+}
+
+.timer .hours {
+   background-color: #BF4D08;
+   margin-left: 10px;
+   margin-right: 3px;
+   width: 24px;
+   height: 24px;
+   font-size: 15px;
+   text-align: center;
+   transform: translateY(-1px);
    color: var(--white-color);
 }
 
-.blog-item .btn-read-more:hover {
+.timer .minutes {
+   background-color: #BF4D08;
+   margin-left: 3px;
+   margin-right: 3px;
+   width: 24px;
+   height: 24px;
+   font-size: 15px;
+   text-align: center;
+   transform: translateY(-1px);
+   color: var(--white-color);
+}
+
+.timer .seconds {
+   background-color: #BF4D08;
+   margin-left: 3px;
+   margin-right: 3px;
+   width: 24px;
+   height: 24px;
+   font-size: 15px;
+   text-align: center;
+   transform: translateY(-1px);
+   color: var(--white-color);
+}
+
+.pr-view-category, .pr-view-type, .pr-view-brand, 
+.pr-view-tag, .pr-view-code, .pr-view-num, 
+.pr-size, .pr-view-color, .pr-view-quantity{
+   color: var(--text-color);
+   font-size: 14px;
+   margin-bottom: 15px;
+}
+
+#sl{
+   border: 1px solid #000;
+}
+
+#sm{
+   border: 1px solid #ccc;
+}
+
+.pr-view-color .btn{
+   border: 1px solid #ccc;
+}
+
+.pr-view-color .btn.active {
+   border: 1px solid #000;
+}
+
+#c1{
+   background-color: #a0a0a0;
+   width: 20px;
+   height: 20px;
+   border-radius: 10px;
+}
+
+#c3{
+   background-color: #000000;
+   width: 20px;
+   height: 20px;
+   border-radius: 10px;
+}
+
+#c2{
+   background-color: blue;
+   width: 20px;
+   height: 20px;
+   border-radius: 10px;
+}
+
+#btn-minus, #btn-plus{
+   background-color: transparent;
+}
+
+#soluong{
+   border: 1px solid #000;
+   color: var(--main-color);
+   width: 75%;
+}
+
+.btn-add-to-cart{
+   background-color: var(--main-color);
+   color: var(--white-color);
+   padding: 10px 15px;
+}
+
+.btn-add-to-cart:hover {
    background-color: var(--secondary-color);
    color: var(--main-color);
 }
 
+.btn-buy-it-now{
+   padding: 10px 20px;
+   background-color: var(--secondary-color);
+   color: var(--main-color);
+}
+
+.btn-buy-it-now:hover{
+   background-color: var(--main-color);
+   color: var(--white-color);
+}
+
+.wishlist, .compare-add{
+   font-size: 14px;
+   color: var(--main-color);
+}
+
+.text-payment{
+   text-align: center;
+   font-size: 14px;
+   font-family: rubik;
+   color: var(--text-color);
+   margin-bottom: 5px;
+}
+.pr-view-pay-cards {
+   text-align: center;
+   font-size: 40px;
+   color: var(--text-color);
+}
+
+.pr-des-title{
+   text-align: center;
+   color: #000;
+   font-size: 20px;
+}
+
+.pr-des-info b{
+   color: #000;
+   font-size: 16px;
+}
+
+.pr-des-info span{
+   font-size: 14px;
+}
 /* ----------------------------------- */
 /* Footer top */
 .footer-top {
@@ -315,6 +666,7 @@ a {
    box-shadow: none !important;
    border: none !important;
 }
+
 /* ----------------------------------- */
 /* Footer bottom */
 .footer-bottom {
@@ -333,6 +685,7 @@ a {
    color: var(--white-color);
    cursor: pointer;
 }
+
 /* ----------------------------------- */
 /* Back to top button */
 #btn-back-to-top {
@@ -347,10 +700,12 @@ a {
    display: none;
    z-index: 10;
 }
+
 #btn-back-to-top:hover {
    background-color: var(--xam);
    color: var(--white-color);
 }
+
 /* ----------------------------------- */
 /* Blog page*/
 .page-blog-title {
@@ -366,13 +721,9 @@ a {
 
 /* ----------------------------------- */
 /* Responsive device */
-@media screen and (min-width:1201px) {
+@media screen and (min-width:1201px) {}
 
-}
-
-@media screen and (max-width:1200px) {
-  
-}
+@media screen and (max-width:1200px) {}
 
 @media screen and (max-width:992px) {
 
@@ -503,8 +854,14 @@ a {
    .footer-payment {
       font-size: 40px;
    }
+
+   .pr-des-info span {
+      font-size: 10px;
+   }
+
+   .pr-des-info b{
+      font-size: 12px;
+   }
 }
 
-@media screen and (max-width:540px) {
-   
-}
+@media screen and (max-width:540px) {}
