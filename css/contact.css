@@ -14,8 +14,32 @@ html {
    src: url("../fonts/Rubik-Italic-VariableFont_wght.ttf");
 }
 
+@font-face {
+   font-family: fa-solid;
+   src: url("../css/webfonts/fa-solid-900.ttf");
+}
+
+@font-face {
+   font-family: fa-regular;
+   src: url("../css/webfonts/fa-regular-400.ttf");
+}
+
+@font-face {
+   font-family: fa-brand;
+   src: url("../css/webfonts/fa-brands-400.ttf");
+}
+
 .fas {
    font-weight: 900 !important;
+   font-family: fa-solid;
+}
+
+.far {
+   font-family: fa-regular;
+}
+
+.fab {
+   font-family: fa-brand;
 }
 
 :root {
